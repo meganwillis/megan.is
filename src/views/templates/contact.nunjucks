@@ -1,0 +1,15 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Megan Willis</title>
+		{% include 'partials/head.nunjucks' %}
+  </head>
+  <body>
+    {% include 'partials/header.nunjucks' %}
+    <main>
+			{% block content %} {% endblock %}
+    </main>
+		{% include 'partials/footer.nunjucks' %}
+  </body>
+</html>

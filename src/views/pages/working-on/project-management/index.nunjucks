@@ -1,0 +1,28 @@
+{% extends "landing.nunjucks" %}
+
+{% block content %}
+
+<div class="hero hero--projects">
+  <div class="hero__box">
+  <h1>Projects</h1>
+  <p class="intro">Here are some words about projects i've worked on</p>
+  </div>
+</div>
+
+<div class="filter-container">
+  <div class="project-filters">
+    <h2>Filter projects by skill:</h2>
+    <ul class="project-filter">
+      <li><a href="/working-on/">All skills</a></li>
+      <li><a href="/working-on/ux-consultancy">UX consultancy</a></li>
+      <li><a href="/working-on/project-management">Project Management</a></li>
+      <li><a href="/working-on/user-research">User Research</a></li>
+    </ul>
+    <p class="currently-showing">Currently showing 6/{{projects.length}} projects</p>
+  </div>
+</div>
+
+{% import 'macros/projects.nunjucks' as projectsmacro %}
+{{projectsmacro.projects(projects, "Project management")}}
+
+{% endblock %}

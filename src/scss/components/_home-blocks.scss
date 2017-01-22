@@ -1,0 +1,35 @@
+.home-blocks {
+  clear: right;
+  color: $white;
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  height: 360px;
+  margin-left: 85px;
+  margin-top: -20px;
+  width: 450px;
+}
+
+.block-item {
+  box-sizing: border-box;
+  height: 50%;
+  margin: 0;
+  padding: 30px;
+  width: 50%;
+
+  a {
+    color: $white;
+  }
+
+  &:nth-child(1) {
+    border-bottom: 1px solid $white;
+    border-right: 1px solid $white;
+  }
+
+  &:nth-child(4) {
+    border-left: 1px solid $white;
+    border-top: 1px solid $white;
+    margin-left: -1px;
+    margin-top: -1px;
+  }
+}

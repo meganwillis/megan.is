@@ -1,0 +1,37 @@
+{% set page = 'Contact' %}
+{% extends "contact.nunjucks" %}
+
+{% block content %}
+
+<div class="hero hero--contact">
+  <div class="hero__contact">
+  <h1>Contact</h1>
+  <p class="intro">I'd love to hear from you</p>
+  </div>
+</div>
+
+<p class="contact_intro">If you'd like to get in touch, I'll get back to you within 48 hours.</p>
+
+
+<div class="contact-block">
+  <ul class="contact-block__list">
+    <li class="contact-block__item">
+        <h2>email</h2>
+        <a href="mailto:meganclairewillis@gmail.com">meganclairewillis@gmail.com</a>
+    </li>
+    <li class="contact-block__item">
+      <h2>phone</h2>
+      <a href="tel:07432559696">+44(0) 7432 55 9696</a>
+    </li>
+    <li class="contact-block__item">
+      <h2>linkedin</h2>
+      <a href="https://www.linkedin.com/in/megan-willis/">linkedin.com/in/megan-willis</a>
+    </li>
+    <li class="contact-block__item">
+      <h2>twitter</h2>
+      <a target="_blank" href="https://twitter.com/meganis_">@meganis_</a>
+    </li>
+  </ul>
+</div>
+
+{% endblock %}

@@ -1,0 +1,7 @@
+<div class="content-area">
+  {% include 'partials/content-modules/paragraphs.nunjucks' %}
+  {% include 'partials/content-modules/image-with-caption.nunjucks' %}
+  {% include 'partials/content-modules/list.nunjucks' %}
+  {% include 'partials/content-modules/table.nunjucks' %}
+  {% include 'partials/content-modules/social-links.nunjucks' %}
+</div>

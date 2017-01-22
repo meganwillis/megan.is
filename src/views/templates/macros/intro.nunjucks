@@ -1,0 +1,4 @@
+{% macro intro(heading='Page heading',intro='Intro text') %}
+<h1>{{heading}}</h1>
+<p>{{intro}}</p>
+{% endmacro %}

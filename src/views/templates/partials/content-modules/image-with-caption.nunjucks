@@ -1,0 +1,4 @@
+<figure class="image-with-caption">
+  <img class="image-with-caption__image" src="/assets/images/dress.jpg" alt="Dress" />
+  <figcaption class="image-with-caption__caption">Caption goes here</figcaption>
+</figure>

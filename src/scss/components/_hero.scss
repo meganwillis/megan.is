@@ -1,0 +1,71 @@
+.hero {
+  align-items: center;
+  background: $black;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+
+  h1,
+  p {
+    max-width: 500px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 4.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    &::after {
+      background-color: $black;
+      content: '';
+      display: block;
+      height: 3px;
+      left: 50%;
+      margin-left: -20px;
+      margin-top: 15px;
+      position: relative;
+      width: 40px;
+
+    }
+
+    p {
+      font-size: 2.5em;
+    }
+  }
+
+  &__box {
+    padding: 30px 20px 40px;
+  }
+
+  &--projects {
+    background-image: url('/assets/images/projects.jpg');
+    color: $white;
+
+    h1 {
+      &::after {
+        background-color: $white;
+      }
+    }
+  }
+
+  &--about {
+    background-image: url('/assets/images/about.jpg');
+    color: $black;
+  }
+
+  &--contact {
+    background-image: url('/assets/images/contact.jpg');
+    color: $white;
+
+    h1 {
+      &::after {
+        background-color: $white;
+      }
+    }
+  }
+
+
+}

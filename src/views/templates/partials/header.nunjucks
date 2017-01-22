@@ -1,0 +1,5 @@
+<header class="header">
+  <a class="home-button" href="/">Megan Willis</a>
+  {% import '../macros/nav.nunjucks' as nav %}
+  {{nav.nav(page)}}
+</header>

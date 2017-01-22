@@ -1,0 +1,35 @@
+// Settings
+@import 'settings/breakpoints';
+@import 'settings/colours';
+
+// Tools
+
+// Generic
+@import 'vendor/normalize';
+
+// Elements
+@import 'elements/typography';
+
+// Objects
+@import 'objects/layout';
+
+// Components
+@import 'components/header';
+@import 'components/footer';
+@import 'components/home-blocks';
+@import 'components/contact-blocks';
+@import 'components/projects';
+@import 'components/nav';
+@import 'components/hero';
+
+.home {
+  background-image: url('/assets/images/home.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  background-color: $mid-grey;
+  clear: right;
+}

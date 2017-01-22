@@ -1,0 +1,16 @@
+{% macro projects(projects='', skill='') %}
+  {% import 'macros/project.nunjucks' as projectmacro %}
+
+  {% if skill == '' %}
+    {% for project in projects %}
+      {{ projectmacro.project(project) }}
+    {% endfor %}
+  {% else %}
+    {% for project in projects %}
+      {% if project.skills.indexOf(skill) > -1 %}
+        {{ projectmacro.project(project) }}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+{% endmacro %}

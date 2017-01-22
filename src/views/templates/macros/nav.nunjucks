@@ -1,0 +1,9 @@
+{% macro nav(active='') %}
+  <nav>
+    <ul>
+      <li class="nav {{'nav--active' if active == 'About'}}"><a href="/a-human/">About</a></li>
+      <li class="nav {{'nav--active' if active == 'Projects'}}"><a href="/working-on/">Projects</a></li>
+      <li class="nav {{'nav--active' if active == 'Contact'}}"><a href="/contactable/">Contact</a></li>
+    </ul>
+  </nav>
+{% endmacro %}

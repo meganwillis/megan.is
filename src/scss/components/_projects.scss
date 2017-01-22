@@ -1,0 +1,98 @@
+.filter-container {
+  background: $grey;
+  padding: 40px 0 30px;
+}
+
+.project-filters {
+  font-family: $serif;
+  margin: 0 auto 15px;
+  max-width: 66vw;
+
+  h2 {
+    font-size: 1.4em;
+    margin: 0;
+  }
+}
+
+.project-filter {
+  font-size: 1.3em;
+  margin: 15px 0 25px;
+  padding: 0;
+
+  a {
+    color: $black;
+  }
+
+  li {
+    border-bottom: 1px solid $black;
+    display: inline-block;
+    list-style: none;
+    margin-right: 25px;
+  }
+}
+
+.currently-showing {
+  font-size: 1em;
+  margin: 10px auto;
+  max-width: 66vw;
+}
+
+.project {
+  clear: left;
+  //height: 150px;
+  margin: 75px auto;
+  max-width: 66vw;
+  overflow: hidden;
+  //padding-right: 30px;
+
+  img {
+    float: left;
+    height: 180px;
+    margin-right: 50px;
+    margin-top: 6px;
+    width: 300px;
+  }
+
+  h2,
+  p {
+    color: $black;
+  }
+
+  h2 {
+    font-family: $serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  .skill-list {
+    font-family: $serif;
+    font-size: 1.1em;
+    font-weight: 400;
+  }
+
+  .skill
+  &::after {
+    content: ',';
+  }
+}
+
+.description {
+  &::after {
+    background-color: $black;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 350px;
+    //margin-left: -20px;
+    //margin-right: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 40px;
+  }
+}

@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>Heading one</th>
+      <th>Heading two</th>
+      <th>Heading three</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Info one</td>
+      <td>Info two</td>
+      <td>Info three</td>
+    </tr>
+  </tbody>
+</table>
