@@ -2,7 +2,7 @@
   "projects": [
     {
       "link": "/working-on/westferry-printworks",
-      "image": "",
+      "image": "/assets/images/westferry-printworks.jpg",
       "name": "Westferry Printworks",
       "description": "Outline the challenge faced. People wanted a website really quickly so we made it for them.",
       "skills": ["UX consultancy", "Project management"]
@@ -23,42 +23,42 @@
     },
     {
       "link": "/working-on/mace-world",
-      "image": "",
+      "image": "/assets/images/mace-world.jpg",
       "name": "Mace World",
       "description": "Outline the challenge faced. People wanted a website really quickly so we made it for them.",
       "skills": ["Project management"]
     },
     {
       "link": "/working-on/the-royal-academy",
-      "image": "",
+      "image": "/assets/images/royal-academy.jpg",
       "name": "The Royal Academy of Arts",
       "description": "Outline the challenge faced. People wanted a website really quickly so we made it for them.",
       "skills": ["Project management"]
     },
     {
       "link": "/working-on/maersk",
-      "image": "",
+      "image": "/assets/images/maersk.jpg",
       "name": "Maersk - Year in Review",
       "description": "Outline the challenge faced. People wanted a website really quickly so we made it for them.",
       "skills": ["Project management"]
     },
     {
       "link": "/working-on/nominet",
-      "image": "",
+      "image": "/assets/images/nominet.jpg",
       "name": "Nominet",
       "description": "Outline the challenge faced. People wanted a website really quickly so we made it for them.",
       "skills": ["User research"]
     },
     {
       "link": "/working-on/shakespeares-globe",
-      "image": "",
+      "image": "/assets/images/shakespeares-globe.jpg",
       "name": "Shakespeare's Globe",
       "description": "Outline the challenge faced. People wanted a website really quickly so we made it for them.",
       "skills": ["User research"]
     },
     {
       "link": "/working-on/sofology",
-      "image": "",
+      "image": "/assets/images/sofology.jpg",
       "name": "Sofology",
       "description": "Outline the challenge faced. People wanted a website really quickly so we made it for them.",
       "skills": ["User research"]

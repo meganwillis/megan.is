@@ -1,0 +1,33 @@
+{% set page = 'Westferry Printworks' %}
+{% extends "detail.nunjucks" %}
+
+{% block content %}
+
+<h1 class="content-header">Westferry Printworks</h1>
+
+<div class="jump-to">
+  <p class="jump-to-title">Jump to:</p>
+  <ul>
+    <li class="jump-to-item"><a href="#summary">Summary</a></li>
+    <li class="jump-to-item"><a href="#process">Process</a></li>
+    <li class="jump-to-item"><a href="#result">The end result</a></li>
+  </ul>
+</div>
+
+<div class="body-content">
+  <h2 id="summary">Summary</h2>
+    <p>Westferry Printworks is a new property development on the Isle of Dogs in London. The development managers needed a new responsive, content-manageable website for the public, potential investors, residents, and commercial businesses, with information about the project.</p>
+    <p>Acting as both project manager and UX consultant, I worked closely with the designer and developer to deliver this project in an extremely short timeframe, to the satisfaction of the client.</p>
+
+  <h2 id="process">Process</h2>
+  <p>The client already had some content in mind, so the main focus of this project was
+    Iterative development and reviews
+    Meetings/workshops
+    Content management training </p>
+
+    <h2 id="result">The end result</h2>
+    <p>We delivered a responsive, Umbraco-based (link) website
+      HTTPS://westferryprintworks.co.uk</p>
+</div>
+
+{% endblock %}

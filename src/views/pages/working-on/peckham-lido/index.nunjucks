@@ -1,0 +1,8 @@
+{% set page = 'Peckham Lido' %}
+{% extends "detail.nunjucks" %}
+
+{% block content %}
+
+  <p>wdfs</p>
+
+{% endblock %}

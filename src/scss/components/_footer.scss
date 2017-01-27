@@ -1,7 +1,7 @@
 footer {
   background: $grey;
   box-sizing: border-box;
-  font-size: .5em;
+  font-size: .7em;
   padding-bottom: 15px;
   padding-right: 15px;
   padding-top: 5px;
@@ -10,7 +10,7 @@ footer {
 
   .home & {
     background: none;
-    bottom: 10px;
+    bottom: 15px;
     color: $white;
     padding-bottom: 0;
     position: absolute;

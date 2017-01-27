@@ -8,12 +8,21 @@
   <body class="home">
     {% include 'partials/header.nunjucks' %}
     <main>
-			<div class="home-blocks">
+			{# <div class="home-blocks">
 	      <h1 class="block-item"><a href="/a-human">Megan Willis</a></h1>
 	      <p class="block-item"><a href="/working-on/ux-consultancy">UX consultancy</a></p>
 				<p class="block-item"><a href="working-on/user-research">User research</a></p>
 				<p class="block-item"><a href="/working-on/user-research">Digital delivery</a></p>
-			</div>
+			</div> #}
+      <div class="home-content">
+        <h1>Hi, I'm <a href="/a-human">Megan</a></h1>
+        <p>I do <a href="/working-on/ux-consultancy">UX Consultancy,</a> <a href="working-on/user-research">User Research,</a> and <a href="/working-on/project-management">Digital Delivery.</a></p>
+        <p>I like working with people, solving problems, and universal design.</p>
+        {# <h2><a href="/contactable">Contact me</a></h2> #}
+        {# <a href="mailto:meganclairewillis@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>meganclairewillis@gmail.com</a><br />
+        <a href="https://twitter.com/meganis_"><i class="fa fa-twitter" aria-hidden="true"></i>@meganis_</a><br />
+        <a href="https://www.linkedin.com/in/megan-willis/"><i class="fa fa-linkedin" aria-hidden="true"></i>linkedin.com/in/megan-willis/</a><br /> #}
+      </div>
     </main>
 		{% include 'partials/footer.nunjucks' %}
   </body>

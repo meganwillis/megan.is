@@ -18,12 +18,13 @@
 @import 'components/footer';
 @import 'components/home-blocks';
 @import 'components/contact-blocks';
+@import 'components/body-content';
 @import 'components/projects';
 @import 'components/nav';
 @import 'components/hero';
 
 .home {
-  background-image: url('/assets/images/home.jpg');
+  background-image: url('/assets/images/background7.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;

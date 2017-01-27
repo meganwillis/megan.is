@@ -5,27 +5,40 @@
 
 <div class="hero hero--about">
   <div class="hero__box">
-  <h1>ABOUT</h1>
+  <h1>About</h1>
   <p class="intro">Here are some words about me</p>
   </div>
 </div>
 
-<h2>Background</h2>
-<p>pragmatic, practical</p>
-<p>working with people, workshops</p>
-<p>I started working in agencies as soon as I graduated from my Psychology BSc.</p>
+<div class="body-content">
+  <h2>Background</h2>
+  <p>pragmatic, practical</p>
+  <p>working with people, workshops</p>
+  <p>I started working in agencies as soon as I graduated from my Psychology BSc.</p>
 
-<h2>Work</h2>
+  <h2>Work</h2>
 
-<h3>Clients</h3>
-<p>I've had the pleasure of working with some great clients, including:</p>
+  <h3>Clients</h3>
+  <p>I've had the pleasure of working with some great clients, including:</p>
 
-<a href="">My CV</a>
+  <a href="">My CV</a>
 
-<h2>Hobbies</h2>
-<p>When I'm not at work or with friends, I like to relax by:</p>
-<p>Calligraphy</p>
-<p>Cats</p>
-<p>Danish</p>
+  <div class="hobbies">
+    <h2>Hobbies</h2>
+    <p>When I'm not at work or with friends, I like to relax by:</p>
+    <img class="interest-image" src="" />
+    <p class="hobby">Calligraphy</p>
+    <img class="interest-image" src="" />
+    <p class="hobby">Cats</p>
+    <img class="interest-image" src="" />
+    <p class="hobby">Danish</p>
+    <img class="interest-image" src="" />
+    <p class="hobby">building stuff (including this site!)</p>
+    <img class="interest-image" src="" />
+    <p class="hobby">coffee</p>
+    <img class="interest-image" src="" />
+    <p class="hobby">being outside, nature</p>
+  </div>
+</div>
 
 {% endblock %}

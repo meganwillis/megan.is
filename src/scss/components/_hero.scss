@@ -4,7 +4,7 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 400px;
+  height: 45vh;
   justify-content: center;
 
   h1,
@@ -66,6 +66,11 @@
       }
     }
   }
+}
 
-
+.content-header {
+  font-size: 4em;
+  font-weight: 400;
+  margin-top: 30px;
+  text-align: center;
 }
