@@ -1,14 +1,74 @@
 .body-content {
   margin: 75px auto;
-  max-width: 66vw;
+  max-width: 64vw;
   text-align: center;
 
   p {
     font-family: $sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-family: $serif;
+    font-size: 2.2em;
+    font-weight: 400;
+    margin: 60px auto 30px;
+    text-transform: uppercase;
+  }
+
+  a {
+    border-bottom: 1px solid $black;
+    color: $black;
+    font-size: .9em;
+    font-weight: bolder;
+    margin: auto 5px;
+  }
+}
+
+.about-intro {
+  p {
+    font-family: $serif;
+    font-size: 1.7em;
+    font-weight: 400;
     line-height: 1.5em;
   }
 
+  &::after {
+    background-color: $black;
+    content: '';
+    display: block;
+    height: 3px;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: 60px;
+    position: relative;
+    width: 40px;
+  }
+}
+
+.about-block {
+  &::after {
+    background-color: $black;
+    content: '';
+    display: block;
+    height: 3px;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: 70px;
+    position: relative;
+    width: 40px;
+  }
+
+  li {
+    background-color: $grey;
+    border: 1px solid $black;
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+    padding: 10px;
+  }
 }
 
 .jump-to {
@@ -43,16 +103,16 @@
   }
 }
 
-.interest-image {
-  height: 320px;
-  margin: auto;
-  width: 550px;
-}
-
-.hobbies {
-  max-width: 1000px;
-}
-
-.hobby {
-  text-transform: uppercase;
-}
+// .interest-image {
+//   height: 320px;
+//   margin: auto;
+//   width: 550px;
+// }
+//
+// .hobbies {
+//   max-width: 1000px;
+// }
+//
+// .hobby {
+//   text-transform: uppercase;
+// }
