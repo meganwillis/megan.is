@@ -30,6 +30,8 @@ gulp.task('css', function(){
 });
 
 gulp.task('copy', function () {
+    gulp.src('./src/downloads/**/*.*')
+      .pipe(gulp.dest('./build/downloads'));
     gulp.src('./src/images/**/*.*')
         .pipe(gulp.dest('./build/assets/images'));
     gulp.src('./src/js/**/*.*')
@@ -43,7 +45,7 @@ gulp.task('serve', ['sass'], function() {
         server: "./build"
     });
     gulp.watch("src/views/**/*.+(json|nunjucks)", ['views']).on('change', browserSync.reload);
-    gulp.watch("src/{images,js}/**/*.*", ['copy']).on('change', browserSync.reload);
+    gulp.watch("src/{images,js,downloads}/**/*.*", ['copy']).on('change', browserSync.reload);
     gulp.watch("src/scss/**/*.scss", ['sasslint', 'sass']).on('change', browserSync.reload);
     gulp.watch("src/*.html", ['copy']).on('change', browserSync.reload);
 });
