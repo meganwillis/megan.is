@@ -1,6 +1,6 @@
 .hero {
   align-items: center;
-  background: $black;
+  background: $white;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -14,13 +14,16 @@
   }
 
   p {
-    font-size: 2.3em;
+    font-size: 1.5em;
+
+    @media (min-width: 500px) {
+      font-size: 1.8em;
+    }
   }
 
   h1 {
-    font-size: 5em;
+    font-size: 3.5em;
     font-weight: 400;
-    text-transform: uppercase;
 
     &::after {
       background-color: $black;
@@ -33,6 +36,10 @@
       position: relative;
       width: 40px;
     }
+
+    @media (min-width: 500px) {
+      font-size: 4em;
+    }
   }
 
   &__box {
@@ -40,18 +47,18 @@
   }
 
   &--projects {
-    background-image: url('/assets/images/projects.jpg');
-    color: $white;
+    // background-image: url('');
+    color: $black;
 
     h1 {
       &::after {
-        background-color: $white;
+        background-color: $black;
       }
     }
   }
 
   &--about {
-    background-image: url('/assets/images/about2.jpg');
+    background-image: url('/assets/images/projects.jpg');
     color: $white;
 
     h1 {

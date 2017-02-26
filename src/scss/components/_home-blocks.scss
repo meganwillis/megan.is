@@ -1,5 +1,11 @@
 .home-content {
-  text-align: center;
+  margin: auto 20px;
+  max-width: 800px;
+  text-align: left;
+
+  @media (min-width: 500px) {
+    margin: auto 40px;
+  }
 
   h1,
   h2,
@@ -9,86 +15,36 @@
   }
 
   a {
-    border-bottom: 2px solid $white;
-  }
-
-  p {
-    font-size: 2.8em;
-    margin: 10px auto 40px;
-
-    a {
-      margin: auto 5px;
-    }
+    border-bottom: 1px solid $white;
+    display: inline-block;
+    padding-bottom: 0;
   }
 
   h1 {
-    color: $white;
-    font-size: 4.5em;
-    font-weight: 400;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    font-size: 2.8em;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+    @media (min-width: 500px) {
+      font-size: 3.5em;
+    }
   }
 
-  h2 {
-    font-family: $serif;
-    font-size: 2.3em;
-    font-weight: 400;
-    margin-top: 75px;
-   }
+  p {
+    font-size: 1.3em;
+    line-height: 1.4;
+    margin: 10px 0 25px;
+    max-width: 700px;
+
+    @media (min-width: 500px) {
+      font-size: 1.6em;
+      padding-right: 40px;
+    }
+
+    a {
+      margin: 0;
+      white-space: nowrap;
+    }
+  }
 }
-
-// .home-contact {
-//   h2,
-//   a {
-//     color: $white;
-//     margin-left: 30px;
-//   }
-//
-//
-//
-//   i {
-//     margin-right: 15px;
-//   }
-//
-//   a {
-//     border-bottom: 0;
-//     margin-bottom: 100px;
-//
-//   }
-// }
-
-// .home-blocks {
-//   clear: right;
-//   color: $white;
-//   display: flex;
-//   flex-wrap: wrap;
-//   float: left;
-//   height: 360px;
-//   margin-left: 85px;
-//   margin-top: -20px;
-//   width: 450px;
-// }
-//
-// .block-item {
-//   box-sizing: border-box;
-//   height: 50%;
-//   margin: 0;
-//   padding: 30px;
-//   width: 50%;
-//
-//   a {
-//     color: $white;
-//   }
-//
-//   &:nth-child(1) {
-//     border-bottom: 1px solid $white;
-//     border-right: 1px solid $white;
-//   }
-//
-//   &:nth-child(4) {
-//     border-left: 1px solid $white;
-//     border-top: 1px solid $white;
-//     margin-left: -1px;
-//     margin-top: -1px;
-//   }
-// }

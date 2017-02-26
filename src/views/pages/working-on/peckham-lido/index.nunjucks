@@ -3,6 +3,37 @@
 
 {% block content %}
 
-  <p>wdfs</p>
+<h1 class="content-header">Peckham Lido</h1>
+
+<div class="jump-to">
+  <p class="jump-to-title">Jump to:</p>
+  <ul>
+    <li class="jump-to-item"><a href="#summary">Summary</a></li>
+    <li class="jump-to-item"><a href="#brief">The brief</a></li>
+    <li class="jump-to-item"><a href="#process">Process</a></li>
+    <li class="jump-to-item"><a href="#solution">The solution</a></li>
+    <li class="jump-to-item"><a href="#learnings">Learnings</a></li>
+  </ul>
+</div>
+
+<div class="body-content">
+  <h2 id="summary">Summary</h2>
+    <p>iuhsfiuh</p>
+
+    <h2 id="brief">Brief</h2>
+    <p>Peckham Lido successfully crowdfunded the first stage of a project to revitalise the an outdoor swimming pool from the early 1900s.</p>
+    <p>They needed a way to tell local residents about the project’s progress, to thank supporters, and to provide a way of funnelling stakeholders through to a consultation website.</p>
+
+    <h2 id="process">Process</h2>
+    <img src="">
+    <p>Workshop</p>
+    <img src="">
+    <p>Content hierarchy and wireframing</p>
+    <img src="">
+    <p>Design in the browser</p>
+
+    <h2 id="solution">The solution</h2>
+    <p>https://peckhamlido.com</p>
+  </div>
 
 {% endblock %}

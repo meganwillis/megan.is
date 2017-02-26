@@ -10,7 +10,7 @@
   </div>
 </div>
 
-<div class="filter-container">
+{# <div class="filter-container">
   <div class="project-filters">
     <h2>Filter projects by skill:</h2>
     <ul class="project-filter">
@@ -21,7 +21,7 @@
     </ul>
     <p class="currently-showing">Currently showing 9/{{projects.length}} projects</p>
   </div>
-</div>
+</div> #}
 
 
 {% import 'macros/projects.nunjucks' as projectsmacro %}

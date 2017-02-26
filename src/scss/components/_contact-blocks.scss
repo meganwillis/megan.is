@@ -1,13 +1,20 @@
 .contact-block {
   color: $black;
-  margin-bottom: 40px;
-  margin-top: 30px;
+  margin: 40px auto;
+  max-width: 80vw;
+
+  @media (min-width: 800px) {
+    max-width: 68vw;
+  }
 
   h2 {
     font-family: $serif;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 400;
-    text-transform: uppercase;
+
+    @media (min-width: 800px) {
+      font-size: 1.8em;
+    }
   }
 
   &__list {
@@ -21,28 +28,48 @@
   &__item {
     //border: 1px solid $black;
     box-sizing: border-box;
-    height: 200px;
     list-style: none;
     margin: 0;
-    padding: 30px 30px 45px;
-    text-align: center;
-    width: 50%;
+    padding: 10px 0 15px;
+    text-align: left;
+    width: 100%;
 
     a {
       border-bottom: 1px solid $black;
       color: $black;
       font-family: $sans-serif;
-      font-size: 1.7em;
+      font-size: 1.2em;
       font-weight: 300;
+    }
+
+    @media (min-width: 700px) {
+      height: 200px;
+      padding: 30px 30px 45px;
+      text-align: center;
+      width: 50%;
+
+      a {
+        font-size: 1.2em;
+      }
+    }
+
+    @media (min-width: 900px) {
+      a {
+        font-size: 1.4em;
+      }
     }
   }
 }
 
 .contact_intro {
   font-family: $serif;
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-weight: 400;
   margin: 60px auto 0;
-  max-width: 600px;
+  max-width: 80vw;
   text-align: center;
+
+  @media (min-width: 500px) {
+    max-width: 68vw;
+  }
 }

@@ -1,0 +1,45 @@
+{% set page = 'Mace World' %}
+{% extends "detail.nunjucks" %}
+
+{% block content %}
+
+<h1 class="content-header">Mace World</h1>
+
+<div class="jump-to">
+  <p class="jump-to-title">Jump to:</p>
+  <ul>
+    <li class="jump-to-item"><a href="#summary">Summary</a></li>
+    <li class="jump-to-item"><a href="#brief">The brief</a></li>
+    <li class="jump-to-item"><a href="#process">Process</a></li>
+    <li class="jump-to-item"><a href="#solution">The solution</a></li>
+    <li class="jump-to-item"><a href="#learnings">Learnings</a></li>
+  </ul>
+</div>
+
+<div class="body-content">
+  <h2 id="summary">Summary</h2>
+    <p>We delivered a technically complex visual experience</p>
+
+  <h2 id="brief">Brief</h2>
+    <p>Mace are a large construction consultancy business based in London, who have worked on projects such as the Shard, the Queen Elizabeth Olympic Park, and the London Eye.</p>
+    <p>Mace needed a way to showcase their range of projects as part of their 25th birthday celebrations.</p>
+    <p>I was brought into manage the technical delivery of the project due to the complex nature of the deliverable.</p>
+
+  <h2 id="process">Process</h2>
+  <img src="">
+  <p>Stand ups</p>
+  <img src="">
+  <p>Reviews and updates</p>
+  <img src="">
+  <p>Cross-device testing</p>
+
+  <h2 id="solution">The solution</h2>
+    <p>The site launched at MIPIM, an important trade show, to great reception. The Mace marketing team had the site loaded on iPads to show visitors, and the site now lives on a large interactive screen in Mace’s reception.</p>
+    <a target="_blank" href="http://mace.world">Check out the website</a>
+
+  <h2 id="learnings">Learnings</h2>
+  <p>Browser and machine set ups can be troublesome</p>
+  <p></p>
+</div>
+
+{% endblock %}

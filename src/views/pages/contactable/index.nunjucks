@@ -16,19 +16,19 @@
 <div class="contact-block">
   <ul class="contact-block__list">
     <li class="contact-block__item">
-        <h2>email</h2>
+        <h2>Email</h2>
         <a href="mailto:meganclairewillis@gmail.com">meganclairewillis@gmail.com</a>
     </li>
     <li class="contact-block__item">
-      <h2>phone</h2>
+      <h2>Phone</h2>
       <a href="tel:07432559696">+44(0) 7432 55 9696</a>
     </li>
     <li class="contact-block__item">
-      <h2>linkedin</h2>
+      <h2>LinkedIn</h2>
       <a href="https://www.linkedin.com/in/megan-willis/">linkedin.com/in/megan-willis</a>
     </li>
     <li class="contact-block__item">
-      <h2>twitter</h2>
+      <h2>Twitter</h2>
       <a target="_blank" href="https://twitter.com/meganis_">@meganis_</a>
     </li>
   </ul>

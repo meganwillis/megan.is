@@ -15,9 +15,9 @@
 				<p class="block-item"><a href="/working-on/user-research">Digital delivery</a></p>
 			</div> #}
       <div class="home-content">
-        <h1>Hi, I'm <a href="/a-human">Megan</a></h1>
-        <p>I do <a href="/working-on/ux-consultancy">UX Consultancy,</a> <a href="working-on/user-research">User Research,</a> and <a href="/working-on/project-management">Digital Delivery.</a></p>
-        <p>I like working with people, solving problems, and universal design.</p>
+        <h1>Hi, I'm Megan</h1>
+        <p class="home-content__p">I do UX&nbsp;Consultancy, User&nbsp;Research, and Digital&nbsp;Delivery.</p>
+        <p>You can find out more <a href="/a-human">about me</a>, check out some of my <a href="/working-on">recent work</a>, or <a href="/contactable">get in touch</a>.</p>
         {# <h2><a href="/contactable">Contact me</a></h2> #}
         {# <a href="mailto:meganclairewillis@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>meganclairewillis@gmail.com</a><br />
         <a href="https://twitter.com/meganis_"><i class="fa fa-twitter" aria-hidden="true"></i>@meganis_</a><br />

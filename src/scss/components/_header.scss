@@ -1,16 +1,30 @@
 .header {
+  background: $white;
   overflow: hidden;
+  text-align: center;
+
+  .home & {
+    background-color: transparent;
+
+    a {
+      color: $white;
+    }
+  }
 }
 
 .home-button {
   color: $black;
-  float: left;
-  font-family: 'Bentham', serif;
+  display: inline-block;
+  font-family: $serif;
   font-size: 1.8em;
-  margin-left: 30px;
-  margin-top: 30px;
+  margin-top: 24px;
 
   .home & {
-    color: $white;
+    display: none;
+  }
+
+  @media (min-width: 600px) {
+    float: left;
+    margin-left: 40px;
   }
 }
