@@ -26,6 +26,7 @@
   <p>Testing and refining</p>
 
   <h2 id="solution">The solution</h2>
+  <img src="/assets/images/westferry.jpg" alt="Westferry Printworks site on an iPad" />
   <ul>
     <li>Responsive front build</li>
     <li>Umbraco CMS</li>

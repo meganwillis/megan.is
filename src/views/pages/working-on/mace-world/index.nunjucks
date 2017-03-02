@@ -26,8 +26,9 @@
   <p>Cross-device testing</p>
 
   <h2 id="solution">The solution</h2>
+  <img src="/assets/images/maceworld.jpg" alt="Mace World site on a laptop" />
     <p>The site launched at MIPIM, an important trade show, to great reception. The Mace marketing team had the site loaded on iPads to show visitors, and the site now lives on a large interactive screen in Mace’s reception.</p>
-    <a target="_blank" href="http://mace.world">Check out the website</a>
+    <p><a class="btn" target="_blank" href="http://mace.world"><i class="material-icons">open_in_new</i> Check out the website</a></p>
 
   <h2 id="learnings">Learnings</h2>
   <p>Browser and machine set ups can be troublesome</p>

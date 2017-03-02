@@ -18,3 +18,19 @@ p {
 a {
   text-decoration: none;
 }
+
+.btn.btn {
+  background-color: $mef-teal;
+  border-bottom: 0;
+  border-radius: 3px;
+  color: $white;
+  display: inline-block;
+  padding: 8px 12px;
+
+  i {
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+  }
+}
