@@ -15,20 +15,6 @@
       "skills": ["UX consultancy", "Project management"]
     },
     {
-      "link": "/working-on/tabithas-attic",
-      "image": "",
-      "name": "Tabitha's attic",
-      "description": "Outline the challenge faced. People wanted a website really quickly so we made it for them.",
-      "skills": ["UX consultancy", "Project management"]
-    },
-    {
-      "link": "/working-on/a-domain-registry-website",
-      "image": "/assets/images/nominet.jpg",
-      "name": "A domain registry website",
-      "description": "Outline the challenge faced. People wanted a website really quickly so we made it for them.",
-      "skills": ["User research"]
-    },
-    {
       "link": "/working-on/mace-world",
       "image": "/assets/images/mace-world.jpg",
       "name": "Mace World",

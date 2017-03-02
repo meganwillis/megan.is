@@ -1,8 +1,12 @@
 .body-content {
   margin: 40px auto;
   max-width: 80vw;
-  padding: 20px;
+  padding: 20px 40px 40px;
   text-align: left;
+
+  .home & {
+    margin-top: -20px;
+  }
 
   @media (min-width: 500px) {
     max-width: 700px;
@@ -17,9 +21,17 @@
 
   h2 {
     font-family: $serif;
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: 400;
     margin: 60px auto 30px;
+
+    @media (min-width: 700px) {
+      font-size: 2.3em;
+    }
+  }
+
+  > h2:first-child {
+    margin-top: 0;
   }
 
   a {
@@ -75,13 +87,14 @@
 .client-list {
   font-family: $sans-serif;
   font-size: 1.1rem;
+  margin-bottom: -20px;
   margin-left: 0;
+  margin-top: -10px;
   padding-left: 0;
-  text-align: center;
 
   a {
     display: inline-block;
-    margin: 0 20px 20px;
+    margin: 0 15px 15px 0;
     padding: 1px 0;
   }
 
@@ -94,7 +107,7 @@
 
 .item-list {
   list-style: none;
-  margin: 50px auto -40px;
+  margin: 25px auto -40px;
   max-width: 373px;
   overflow: hidden;
   padding: 0;
@@ -119,7 +132,7 @@
     box-sizing: border-box;
     margin-bottom: 40px;
     max-width: 373px;
-    padding: 0 40px;
+    padding: 0;
 
     &:nth-child(2n) {
       margin-right: 0;
@@ -201,45 +214,47 @@
   }
 }
 
-.about-image {
-  width: 293px;
-}
-
 .callout {
-  //background: #eee;
-  border: 3px solid $black;
-  margin-top: 50px;
-  padding: 40px 30px;
+  background: $mef-teal;
+  color: $white;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  padding: 40px 30px 50px;
+
+  @media (min-width: 700px) {
+    padding: 40px 80px 50px;
+  }
 
   h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    margin-bottom: 20px;
     margin-top: 0;
     text-align: center;
     text-transform: none;
+
+    @media (min-width: 700px) {
+      font-size: 2.6rem;
+    }
   }
 
   p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+
+    @media (min-width: 700px) {
+      font-size: 1.4rem;
+    }
+
     &:last-child {
       margin-bottom: 0;
       text-align: center;
     }
+  }
 
-    span {
-      display: block;
-      margin: 10px 0;
-
-      @media (min-width: 520px) {
-        display: inline-block;
-        margin: 0 12px;
-      }
-    }
-
-    a {
-      background: $white;
-      border: 2px solid $black;
-      border-radius: 5px;
-      display: inline-block;
-      padding: 8px 10px;
-    }
+  a {
+    border-bottom: 1px solid $white;
+    color: $white;
+    font-weight: bold;
+    white-space: nowrap;
   }
 }

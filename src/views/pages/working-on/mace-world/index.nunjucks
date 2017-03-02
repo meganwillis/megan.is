@@ -3,18 +3,10 @@
 
 {% block content %}
 
-<h1 class="content-header">Mace World</h1>
-
-<div class="jump-to">
-  <p class="jump-to-title">Jump to:</p>
-  <ul>
-    <li class="jump-to-item"><a href="#summary">Summary</a></li>
-    <li class="jump-to-item"><a href="#brief">The brief</a></li>
-    <li class="jump-to-item"><a href="#process">Process</a></li>
-    <li class="jump-to-item"><a href="#solution">The solution</a></li>
-    <li class="jump-to-item"><a href="#learnings">Learnings</a></li>
-  </ul>
-</div>
+<header class="content-header">
+  <p class="back-to"><a href="/working-on/">Projects</a> /</p>
+  <h1>Mace World</h1>
+</header>
 
 <div class="body-content">
   <h2 id="summary">Summary</h2>

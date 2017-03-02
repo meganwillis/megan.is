@@ -15,68 +15,9 @@
       <p>Hi! I'm Megan, and I love making things for the internet.</p>
       <p>I'm good at problem solving with a team, universal design, and learning new things.</p>
       <p>You can find me on
-        <a target="_blank" href="https://twitter.com/meganis_">Twitter</a>,
+        <a target="_blank" href="https://twitter.com/welshfruit">Twitter</a>,
         <a target="_blank" href="https://instagram.com/welshfruit">Instagram</a>, and
         <a target="_blank" href="https://www.linkedin.com/in/megan-willis/">LinkedIn</a>.</p>
-    </div>
-    <div class="about-block">
-      <h2>My skills</h2>
-      <p>I've built up a range of skills, which means I can have better conversations with colleagues and clients.</p>
-      <p>Some of the things I can do include:</p>
-      <ul class="item-list">
-        <li>
-          <h3>
-            <i class="material-icons">important_devices</i>
-            User Experience</h3>
-          <ul class="skill-list">
-            <li>Sketching and wireframing</li>
-            <li>Information architecture and sitemapping</li>
-            <li>User interviews, personas, and user flows</li>
-            <li>Usability research and reviews</li>
-            <li>Client workshops</li>
-          </ul>
-        </li>
-        <li>
-          <h3>
-            <i class="material-icons">code</i>
-            Development</h3>
-          <ul class="skill-list">
-            <li>Practical HTML, CSS and JS skills (including this site!)</li>
-            <li>Managed projects using a range of back end technologies</li>
-            <li>Understands the technical impact of UX/design decisions</li>
-            <li>Passionate about web accessibility/universal design</li>
-          </ul>
-        <li>
-          <h3>
-            <i class="material-icons">people</i>
-            Project Management</h3>
-          <ul class="skill-list">
-            <li>Client relationship management</li>
-            <li>Schedule and budget management</li>
-            <li>Presentation and facilitation</li>
-            <li>End to end delivery</li>
-          </ul>
-        </li>
-        <li>
-          <h3>
-            <i class="material-icons">build</i>
-            Ways of working</h3>
-          <ul class="skill-list">
-            <li>Pragmatic and practical</li>
-            <li>Proactive</li>
-            <li>Collaborative</li>
-            <li>Good attention to detail</li>
-          </ul>
-        </li>
-      </ul>
-      <div class="callout">
-        <h2>Find out more about my skills:</h2>
-        <p>
-          <a href="/working-on">View recent projects</a>
-          <span>or</span>
-          <a href="/downloads/Megan-Willis_CV_2017.pdf">Download&nbsp;my&nbsp;CV</a>
-        </p>
-      </div>
     </div>
     <div class="about-block">
       <h2>My background</h2>
@@ -123,6 +64,12 @@
           <a target="_blank" href="">Drax</a>
         </li>
       </ul>
+      <div class="callout">
+        <h2>Find out more</h2>
+        <p>
+          Check out my <a href="/working-on">recent projects</a> or for a little more detail, <a href="/downloads/Megan-Willis_CV_2017.pdf">download my CV</a>.
+        </p>
+      </div>
     </div>
     <div class="about-block">
       <h2>When I'm not at work</h2>

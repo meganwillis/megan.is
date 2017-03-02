@@ -48,11 +48,12 @@
 
   &--projects {
     // background-image: url('');
-    color: $black;
+    background-color: #bb6449;
+    color: $white;
 
     h1 {
       &::after {
-        background-color: $black;
+        background-color: $white;
       }
     }
   }
@@ -81,8 +82,26 @@
 }
 
 .content-header {
-  font-size: 4em;
-  font-weight: 400;
-  margin-top: 30px;
-  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+
+  h1 {
+    font-size: 4em;
+    font-weight: 400;
+    margin-top: 30px;
+  }
+
+  .back-to {
+    font-family: $serif;
+    font-size: 1.8rem;
+    margin-bottom: -15px;
+    margin-top: 50px;
+
+    a {
+      border-bottom: 1px solid $black;
+      color: $black;
+
+
+    }
+  }
 }

@@ -23,13 +23,6 @@
 @import 'components/nav';
 @import 'components/hero';
 
-.home {
-  background-image: url('/assets/images/background7.jpg');
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .about {
   background-color: $mid-grey;
   clear: right;

@@ -26,7 +26,8 @@ gulp.task('css', function(){
   ];
   return gulp.src('./build/assets/css/**/*.css')
     .pipe(postcss(processors))
-    .pipe(gulp.dest('./build/assets/css'));
+    .pipe(gulp.dest('./build/assets/css'))
+    .pipe(browserSync.stream());
 });
 
 gulp.task('copy', function () {
@@ -44,10 +45,11 @@ gulp.task('serve', ['sass'], function() {
     browserSync.init({
         server: "./build"
     });
-    gulp.watch("src/views/**/*.+(json|nunjucks)", ['views']).on('change', browserSync.reload);
-    gulp.watch("src/{images,js,downloads}/**/*.*", ['copy']).on('change', browserSync.reload);
-    gulp.watch("src/scss/**/*.scss", ['sasslint', 'sass']).on('change', browserSync.reload);
-    gulp.watch("src/*.html", ['copy']).on('change', browserSync.reload);
+    gulp.watch("src/views/**/*.+(json|nunjucks)", ['views']);
+    gulp.watch("src/{images,js,downloads}/**/*.*", ['copy']);
+    gulp.watch("src/scss/**/*.scss", ['sasslint', 'sass']);
+    gulp.watch("src/*.html", ['copy']);
+    gulp.watch("build/**/*.html").on('change', browserSync.reload);
 });
 
 gulp.task('sasslint', function() {

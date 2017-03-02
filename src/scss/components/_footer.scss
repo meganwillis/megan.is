@@ -8,12 +8,29 @@ footer {
   padding-top: 15px;
   text-align: right;
   width: 100%;
+}
 
-  .home & {
-    background: none;
-    bottom: 15px;
-    color: $white;
-    padding-bottom: 0;
-    position: absolute;
+.social-links {
+  float: left;
+  list-style: none;
+  margin: 5px 0 0 25px;
+  padding: 0;
+  vertical-align: middle;
+
+  li {
+    display: inline-block;
+    margin-right: 15px;
+
+    a {
+      &:hover {
+        svg {
+          fill: $mef-teal;
+        }
+      }
+    }
+
+    svg {
+      width: 25px;
+    }
   }
 }
