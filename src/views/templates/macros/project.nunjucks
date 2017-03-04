@@ -5,7 +5,12 @@
     <img src="{{ project.image }}" />
     <h2>{{ project.name }}</h2>
     <div class="project__description">
-      <p class="description">{{ project.description }}</p>
+      {# <p class="description">{{ project.description }}</p> #}
+      <p class="skill-list">
+        {% for skill in project.skills %}
+        <span class="skill">{{ skill }}</span>
+        {% endfor %}
+      </p>
     </div>
   </a>
 </div>

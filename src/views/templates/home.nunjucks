@@ -17,7 +17,7 @@
 			</section>
 			<section class="body-content">
 				<div class="about-block">
-		      <h2>A little about me</h2>
+		      <h2>A little bit about me</h2>
 		      <p>I've worked on web projects with everyone from tiny start ups to huge FTSE100 companies, from brief to go live, with turnarounds from a week to a year.</p>
 		      <p>Some of the things I can do include:</p>
 		      <ul class="item-list">
@@ -33,37 +33,37 @@
 		            <li>Client workshops</li>
 		          </ul>
 		        </li>
+            <li>
+              <h3>
+                <i class="material-icons">people</i>
+                Project Management</h3>
+                <ul class="skill-list">
+                  <li>Client relationship cultivation</li>
+                  <li>End to end delivery with cross-functional teams</li>
+                  <li>Presentation and facilitation skills</li>
+                  <li>Schedule and budget management</li>
+                </ul>
+              </li>
 		        <li>
 		          <h3>
 		            <i class="material-icons">code</i>
 		            Development</h3>
 		          <ul class="skill-list">
-		            <li>Practical HTML, CSS and JS skills (including this site!)</li>
-		            <li>Managed projects using a range of back end technologies</li>
+                <li>Worked closely with developers across a range of technologies</li>
+		            <li>Practical HTML and CSS skills (including this site!)</li>
 		            <li>Understands the technical impact of UX/design decisions</li>
 		            <li>Passionate about web accessibility/universal design</li>
 		          </ul>
 						</li>
 		        <li>
 		          <h3>
-		            <i class="material-icons">people</i>
-		            Project Management</h3>
-		          <ul class="skill-list">
-		            <li>Client relationship management</li>
-		            <li>Schedule and budget management</li>
-		            <li>Presentation and facilitation</li>
-		            <li>End to end delivery</li>
-		          </ul>
-		        </li>
-		        <li>
-		          <h3>
 		            <i class="material-icons">build</i>
 		            Ways of working</h3>
 		          <ul class="skill-list">
 		            <li>Pragmatic and practical</li>
-		            <li>Proactive</li>
-		            <li>Collaborative</li>
-		            <li>Good attention to detail</li>
+		            <li>Proactive approach to knowledge sharing</li>
+		            <li>Collaborative, team-building approach</li>
+		            <li>Quality focused and detail oriented</li>
 		          </ul>
 		        </li>
 		      </ul>

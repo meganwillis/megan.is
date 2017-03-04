@@ -9,24 +9,39 @@
 </header>
 
 <div class="body-content">
-  <h2 id="summary">Summary</h2>
-    <p>iuhsfiuh</p>
+  <h2 id="summary">Project summary</h2>
+    <p>The first iteration of a </p>
 
-    <h2 id="brief">Brief</h2>
-    <p>Peckham Lido successfully crowdfunded the first stage of a project to revitalise the an outdoor swimming pool from the early 1900s.</p>
-    <p>They needed a way to tell local residents about the project’s progress, to thank supporters, and to provide a way of funnelling stakeholders through to a consultation website.</p>
+  <h2 id="brief">What they needed</h2>
+  <p>After a successful crowdfunding campaign to reopen a local outdoor swimming pool, Peckham Lido needed a way of communicating their progress to their backers, and to direct local residents to a consultation hub where they could express their views.</p>
+  <p>As an early-stage community project, Peckham Lido wanted a warm and friendly web presence which answered common questions they’d received from the local community.</p>
 
-    <h2 id="process">Process</h2>
-    <img src="">
-    <p>Workshop</p>
-    <img src="">
-    <p>Content hierarchy and wireframing</p>
-    <img src="">
-    <p>Design in the browser</p>
+  <h2 id="process">What I did</h2>
+  <h3>Content</h3>
+  <p>Content hierarchy, wireframes, and content prioritisation</p>
+  <h3>Project management</h3>
+  <p>Client management, scheduling, budgets</p>
+  <h3>User Experience</h3>
+  <p>Paper sketches, in-browser work and recommendations, supported front end iterations, integrated client feedback</p>
 
-    <h2 id="solution">The solution</h2>
-    <img src="/assets/images/peckham.jpg" alt="Peckham Lido site on an iPhone" />
-    <p>https://peckhamlido.com</p>
+  <h2 id="solution">The solution</h2>
+  <img src="/assets/images/peckham.jpg" alt="Westferry Printworks site on an iPad" />
+  <p><a class="btn" target="_blank" href="https://peckhamlido.co.uk"><i class="material-icons">open_in_new</i> Check out the website</a></p>
+
+  <h2 id="learnings">Key takeaways</h2>
+  <h3>Custom websites don’t have to take forever</h3>
+  <p>My main learning was that you can build a custom Umbraco site from scratch in a week! Having worked at agencies where just the build can take 4 - 6 weeks, it was great to see the impact of having UX and design/development sit together and focus on iteratively working on a project.</p>
+  <h3>Content editors are important users too</h3>
+  <p>During CMS training, it was great to see how easily the content editors were able to become confident Umbraco users. We considered their experience throughout the CMS build, making editing as straightforward as possible. This meant they were able to quickly get up and running, and needed minimal support after our session.</p>
+  <h3>Website performance matters</h3>
+  <p>I worked on this project with my partner over the Christmas period of 2016, when we had two holidays booked. This meant we kicked off the site in the U.K, worked on some of the front end in Norway, and finished it up in Marrakech.</p>
+  <p>Working in Marrakech on ‘less than ideal’ WiFi really highlighted the importance of designing and building a site that is fast and light. While I was already aware that improvements to code and image compression make a huge difference, seeing it first hand was eye-opening.</p>
+
+  <div>
+    <h2>Other work</h2>
+    <p>link to other project</p>
+    <p>link to contact page</p>
   </div>
+</div>
 
 {% endblock %}

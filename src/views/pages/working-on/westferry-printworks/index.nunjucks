@@ -9,35 +9,39 @@
 </header>
 
 <div class="body-content">
-  <h2 id="summary">Summary</h2>
-    <p>The development managers of Westferry Printworks needed a responsive, content-manageable website for the public, potential investors, residents, and commercial businesses, with information about the project.</p>
-    <p>Acting as both UX consultant and project manager, I worked closely with the designer and developer to deliver this project in an extremely short timeframe.</p>
+  <h2 id="summary">Project summary</h2>
+    <p>Turning round a custom content managed website in two weeks </p>
 
-  <h2 id="brief">Brief</h2>
-  <p>Westferry Printworks is a new property development on the Isle of Dogs. They needed a responsive, content-managed website UX-ed, designed, and built in a very short period of time over the Christmas 2016 period.</p>
-  <p>This project was done as a side project as part of the business @andyvidual and I set up in 2016.</p>
+  <h2 id="brief">What they needed</h2>
+  <p>Westferry Printworks, a new property development in the Isle of Dogs, needed a responsive, content-manageable website for the public, potential investors, residents, and commercial businesses, with information about the project.</p>
+  <p>Acting as both UX consultant and project manager, I worked closely with the designer/developer to deliver this project in an extremely short timeframe.</p>
 
-  <h2 id="process">Process</h2>
-  <img src="">
-  <p>Iterative paper sketching</p>
-  <img src="">
-  <p>Design in the browser</p>
-  <img src="">
-  <p>Testing and refining</p>
+  <h2 id="process">What I did</h2>
+  <h3>New business</h3>
+  <p>Pitching, proposal, and SoW</p>
+  <h3>Project management</h3>
+  <p>Client management, scheduling, budgets and third party stakeholder management, CMS training</p>
+  <h3>User Experience</h3>
+  <p>Paper sketches, in-browser work and recommendations, supported front end iterations, integrated client feedback, considered CMS editor experience (form builder), adapted content to user needs</p>
 
   <h2 id="solution">The solution</h2>
   <img src="/assets/images/westferry.jpg" alt="Westferry Printworks site on an iPad" />
-  <ul>
-    <li>Responsive front build</li>
-    <li>Umbraco CMS</li>
-    <li>CMS training</li>
-    <li>End to end project management</li>
-  </ul>
-  <a target="_blank" href="https://westferryprintworks.co.uk">Check out the website</a>
+  <p><a class="btn" target="_blank" href="https://westferryprintworkds.co.uk"><i class="material-icons">open_in_new</i> Check out the website</a></p>
 
-  <h2 id="learnings">Learnings</h2>
-  <p>Surprisingly, nothing!</p>
-  <p>We were able to build the site and take the client through a review within two weeks of the kick off meeting. The client was very pleased with the design and structure of the site, and found the CMS to be intuitive and flexible.</p>
+  <h2 id="learnings">Key takeaways</h2>
+  <h3>Custom websites don’t have to take forever</h3>
+  <p>My main learning was that you can build a custom Umbraco site from scratch in a week! Having worked at agencies where just the build can take 4 - 6 weeks, it was great to see the impact of having UX and design/development sit together and focus on iteratively working on a project.</p>
+  <h3>Content editors are important users too</h3>
+  <p>During CMS training, it was great to see how easily the content editors were able to become confident Umbraco users. We considered their experience throughout the CMS build, making editing as straightforward as possible. This meant they were able to quickly get up and running, and needed minimal support after our session.</p>
+  <h3>Website performance matters</h3>
+  <p>I worked on this project with my partner over the Christmas period of 2016, when we had two holidays booked. This meant we kicked off the site in the U.K, worked on some of the front end in Norway, and finished it up in Marrakech.</p>
+  <p>Working in Marrakech on ‘less than ideal’ WiFi really highlighted the importance of designing and building a site that is fast and light. While I was already aware that improvements to code and image compression make a huge difference, seeing it first hand was eye-opening.</p>
+
+  <div>
+    <h2>Other work</h2>
+    <p>link to other project</p>
+    <p>link to contact page</p>
+  </div>
 </div>
 
 {% endblock %}
