@@ -2,7 +2,8 @@
 <html class="no-js" lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Megan Willis</title>
+		{% import 'macros/title.nunjucks' as title %}
+	  {{title.title(titleName)}}
 		{% include 'partials/head.nunjucks' %}
   </head>
   <body>

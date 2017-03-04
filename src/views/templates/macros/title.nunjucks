@@ -1,0 +1,3 @@
+{% macro title(titleName='') %}
+<title>{{titleName}} | Megan Willis</title>
+{% endmacro %}

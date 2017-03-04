@@ -1,10 +1,10 @@
-{% set page = 'Mace World' %}
+{% set page = 'Projects' %}
+{% set titleName = 'Mace World' %}
 {% extends "detail.nunjucks" %}
 
 {% block content %}
 
 <header class="content-header">
-  <p class="back-to"><a href="/working-on/">Projects</a> /</p>
   <h1>Mace World</h1>
 </header>
 
