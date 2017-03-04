@@ -35,10 +35,30 @@
   }
 
   a {
-    border-bottom: 1px solid $black;
+
     color: $black;
+    display: inline-block;
     // font-size: .9em;
-    font-weight: bolder;
+    position: relative;
+    //transition: background .5s ease;
+
+    &:after {
+      border-bottom: 1px solid $black;
+      bottom: 1px;
+      content: '';
+      display: block;
+      position: absolute;
+      transition: .2s all ease;
+      width: 100%;
+    }
+
+    &:hover {
+      font-weight: bold;
+
+      &:after {
+        transform: scaleX(0);
+      }
+    }
   }
 
   img {
@@ -53,39 +73,19 @@
     font-weight: 400;
     line-height: 1.4;
   }
-
-  &::after {
-    background-color: $black;
-    content: '';
-    display: block;
-    height: 3px;
-    left: 50%;
-    margin-left: -20px;
-    margin-top: 60px;
-    position: relative;
-    width: 40px;
-  }
 }
 
-.about-block {
-  &::after {
-    background-color: $black;
-    content: '';
-    display: block;
-    height: 3px;
-    left: 50%;
-    margin-bottom: 70px;
-    margin-left: -20px;
-    margin-top: 70px;
-    position: relative;
-    width: 40px;
-  }
-
-  &:last-child {
-    &::after {
-      display: none;
-    }
-  }
+hr {
+  background-color: $black;
+  border: 0;
+  display: block;
+  height: 3px;
+  left: 50%;
+  margin-bottom: 70px;
+  margin-left: -20px;
+  margin-top: 70px;
+  position: relative;
+  width: 40px;
 }
 
 .client-list {
@@ -96,23 +96,21 @@
   margin-top: -10px;
   padding-left: 0;
 
-  a {
-    display: inline-block;
-    margin: 0 15px 15px 0;
-    padding: 1px 0;
-  }
-
   li {
     // background-color: $grey;
     display: inline-block;
     list-style: none;
+
+    &:after {
+      content: ','
+    }
   }
 }
 
 .item-list {
   list-style: none;
-  margin: 25px auto -40px;
-  max-width: 373px;
+  margin: 25px 0 -40px;
+  max-width: 100%;
   overflow: hidden;
   padding: 0;
 
@@ -135,7 +133,7 @@
   > li {
     box-sizing: border-box;
     margin-bottom: 40px;
-    max-width: 373px;
+    max-width: 100%;
     padding: 0;
 
     &:nth-child(2n) {
@@ -152,18 +150,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: -15px;
     max-width: none;
-    width: 100%;
+    width: calc(100% + 30px);
 
     > li {
       padding: 0 15px;
       width: 50%;
-    }
-  }
-
-  @media (min-width: 650px) {
-    > li {
-      padding: 0 40px;
     }
   }
 }
@@ -222,8 +215,16 @@
   background: $mef-teal;
   color: $white;
   margin-bottom: 30px;
+  margin-left: -40px;
+  margin-right: -40px;
   margin-top: 80px;
   padding: 40px 30px 50px;
+
+  &:last-child {
+    .home & {
+      margin-bottom: -40px;
+    }
+  }
 
   @media (min-width: 700px) {
     padding: 40px 80px 50px;
@@ -256,9 +257,11 @@
   }
 
   a {
-    border-bottom: 1px solid $white;
     color: $white;
-    font-weight: bold;
     white-space: nowrap;
+
+    &:after {
+      border-color: $white;
+    }
   }
 }

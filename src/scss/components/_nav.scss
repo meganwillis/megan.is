@@ -16,22 +16,28 @@ nav {
     }
   }
 
-  li {
+  .nav {
     display: inline-block;
     list-style: none;
     margin: 0 14px 0;
+
+    &--active {
+      a,
+      a:hover {
+        border-bottom: 3px solid $mef-teal;
+        font-weight: bold;
+      }
+    }
   }
 
   a {
-    border-bottom: 1px solid $black;
+    border-bottom: 3px solid transparent;
     color: $black;
     display: block;
     padding: 12px 0 6px 0;
 
-    .home & {
-      border-bottom: 1px solid $white;
-      padding-left: 0;
-      padding-right: 0;
+    &:hover {
+      border-bottom: 3px solid #e0e0e0;
     }
   }
 }

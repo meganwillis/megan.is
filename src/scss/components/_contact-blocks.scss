@@ -35,11 +35,31 @@
     width: 100%;
 
     a {
-      border-bottom: 1px solid $black;
+      //border-bottom: 1px solid $black;
       color: $black;
       font-family: $sans-serif;
       font-size: 1.2em;
       font-weight: 300;
+      position: relative;
+
+      &:after {
+        border-bottom: 1px solid $black;
+        bottom: -3px;
+        content: '';
+        display: block;
+        left: 0;
+        position: absolute;
+        transition: .2s all ease;
+        width: 100%;
+      }
+
+      &:hover {
+        font-weight: bold;
+
+        &:after {
+          transform: scaleX(0);
+        }
+      }
     }
 
     @media (min-width: 700px) {

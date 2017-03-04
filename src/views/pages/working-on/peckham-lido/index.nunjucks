@@ -1,10 +1,10 @@
-{% set page = 'Peckham Lido' %}
+{% set page = 'Projects' %}
+{% set titleName = 'Peckham Lido' %}
 {% extends "detail.nunjucks" %}
 
 {% block content %}
 
 <header class="content-header">
-  <p class="back-to"><a href="/working-on/">Projects</a> /</p>
   <h1>Peckham Lido</h1>
 </header>
 

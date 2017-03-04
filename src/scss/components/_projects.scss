@@ -102,3 +102,111 @@
     max-width: 66vw;
   }
 }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: $white;
+    background-position: top center;
+    box-sizing: border-box;
+    color: $white;
+    font-family: $serif;
+    font-size: 1.4rem;
+    min-height: 500px;
+    padding: 0;
+    position: relative;
+    transition: background-color .3s ease;
+    width: 100%;
+
+    @media(min-width: 600px) {
+      min-height: 400px;
+    }
+
+    @media(min-width: 800px) {
+      font-size: 1.4rem;
+      min-height: 400px;
+      width: 50%;
+    }
+
+    @media(min-width: 915px) {
+      font-size: 1.7rem;
+    }
+
+    &:hover {
+      background-blend-mode: multiply;
+      background-color: lighten($mef-teal, 20%);
+
+      h2:after {
+        content: '';
+        border-bottom: 1px solid $white;
+        display: block;
+        opacity: 1;
+        position: absolute;
+        transform: translateY(0);
+        width: 100%;
+      }
+    }
+
+    h2 {
+      display: inline-block;
+      font-weight: normal;
+      margin: 20px 22px;
+      padding: 0;
+      position: relative;
+      z-index: 10;
+
+      &:after {
+        border-bottom: 1px solid $white;
+        content: '';
+        opacity: 0;
+        transition: .3s all ease;
+        transform: translateY(5px);
+      }
+
+      span {
+        position: relative;
+        z-index: 20;
+      }
+    }
+
+    p {
+      font-size: 1.8rem;
+      padding: 0 30px;
+    }
+
+    &--westferry {
+      background-image: url(/assets/images/project-westferry.jpg);
+    }
+
+    &--peckham {
+      background-image: url(/assets/images/project-peckham.jpg);
+    }
+
+    &--maceworld {
+      background-image: url(/assets/images/project-maceworld.jpg);
+      background-position: bottom center;
+    }
+
+    &--getintouch {
+      align-items: center;
+      background-color: $mef-teal;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h2 {
+        font-size: 3rem;
+        padding: 0;
+        position: relative;
+      }
+
+      &:hover {
+        background-color: darken($mef-teal, 10%);
+      }
+    }
+  }
+}

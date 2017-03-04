@@ -1,0 +1,38 @@
+<picture class="home-intro__background">
+  <source
+    media="(max-width: 767px)"
+    sizes="(max-width: 767px) 100vw, 767px"
+    srcset="
+    /assets/images/background7_yngfhz_ar_3_4,c_fill,g_auto__c_scale,w_190.jpg 190w,
+    /assets/images/background7_yngfhz_ar_3_4,c_fill,g_auto__c_scale,w_403.jpg 403w,
+    /assets/images/background7_yngfhz_ar_3_4,c_fill,g_auto__c_scale,w_556.jpg 556w,
+    /assets/images/background7_yngfhz_ar_3_4,c_fill,g_auto__c_scale,w_668.jpg 668w,
+    /assets/images/background7_yngfhz_ar_3_4,c_fill,g_auto__c_scale,w_767.jpg 767w">
+    <source
+    media="(min-width: 768px) and (max-width: 991px)"
+    sizes="(max-width: 991px) 70vw, 694px"
+    srcset="
+    /assets/images/background7_yngfhz_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg 538w,
+    /assets/images/background7_yngfhz_ar_4_3,c_fill,g_auto__c_scale,w_694.jpg 694w">
+    <source
+    media="(min-width: 992px) and (max-width: 1199px)"
+    sizes="(max-width: 1200px) 60vw, 720px"
+    srcset="
+    /assets/images/background7_yngfhz_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg 596w,
+    /assets/images/background7_yngfhz_ar_16_9,c_fill,g_auto__c_scale,w_720.jpg 720w">
+    <img
+    sizes="(max-width: 3200px) 60vw, 1920px"
+    srcset="
+    /assets/images/background7_yngfhz_c_scale,w_720.jpg 720w,
+    /assets/images/background7_yngfhz_c_scale,w_938.jpg 938w,
+    /assets/images/background7_yngfhz_c_scale,w_1138.jpg 1138w,
+    /assets/images/background7_yngfhz_c_scale,w_1296.jpg 1296w,
+    /assets/images/background7_yngfhz_c_scale,w_1430.jpg 1430w,
+    /assets/images/background7_yngfhz_c_scale,w_1558.jpg 1558w,
+    /assets/images/background7_yngfhz_c_scale,w_1676.jpg 1676w,
+    /assets/images/background7_yngfhz_c_scale,w_1797.jpg 1797w,
+    /assets/images/background7_yngfhz_c_scale,w_1907.jpg 1907w,
+    /assets/images/background7_yngfhz_c_scale,w_1920.jpg 1920w"
+    src="/assets/images/background7_yngfhz_c_scale,w_1920.jpg"
+    alt="">
+</picture>

@@ -33,4 +33,8 @@ a {
     top: -2px;
     vertical-align: middle;
   }
+
+  &:after {
+    display: none;
+  }
 }

@@ -1,9 +1,11 @@
 {% set page = 'About' %}
+{% set titleName = 'About' %}
 {% extends "landing.nunjucks" %}
 
 {% block content %}
 
   <div class="hero hero--about">
+    {% include "partials/hero/about.nunjucks" %}
     <div class="hero__box">
       <h1>About me</h1>
       <p class="intro">Made of code, cats, and coffee</p>
@@ -19,6 +21,7 @@
         <a target="_blank" href="https://instagram.com/welshfruit">Instagram</a>, and
         <a target="_blank" href="https://www.linkedin.com/in/megan-willis/">LinkedIn</a>.</p>
     </div>
+    <hr />
     <div class="about-block">
       <h2>My background</h2>
       <p>I've worked in digital agencies in London since I graduated from
@@ -28,42 +31,7 @@
       <p>Outside of my main work hours I'm also Digital Delivery Director of
         <a target="_blank" href="https://table.digital">table digital</a>
         - a two person agency where I'm responsible for the UX and delivery of web projects.</p>
-      <p>I've had the pleasure of working with some great clients, including:</p>
-      <ul class="client-list">
-        <li>
-          <a target="_blank" href="">Maersk</a>
-        </li>
-        <li>
-          <a target="_blank" href="">Eurostar</a>
-        </li>
-        <li>
-          <a target="_blank" href="">The Royal Academy of Arts</a>
-        </li>
-        <li>
-          <a target="_blank" href="">Direct Line</a>
-        </li>
-        <li>
-          <a target="_blank" href="">Pottermore</a>
-        </li>
-        <li>
-          <a target="_blank" href="">PwC</a>
-        </li>
-        <li>
-          <a target="_blank" href="">ARM</a>
-        </li>
-        <li>
-          <a target="_blank" href="">Mace Group</a>
-        </li>
-        <li>
-          <a target="_blank" href="">City of London Corporation</a>
-        </li>
-        <li>
-          <a target="_blank" href="">UKTI</a>
-        </li>
-        <li>
-          <a target="_blank" href="">Drax</a>
-        </li>
-      </ul>
+      <p>I've had the pleasure of working with some great clients, including:<br/>Maersk, Eurostar, The Royal Academy of Arts, Direct Line, Pottermore, PwC, ARM, Mace Group, City of London Corporation, UKTI, and Drax.</p>
       <div class="callout">
         <h2>Find out more</h2>
         <p>
@@ -71,24 +39,25 @@
         </p>
       </div>
     </div>
+    <hr />
     <div class="about-block">
       <h2>When I'm not at work</h2>
       <p>If I'm not curled up with a big cup of coffee, I'm usually found:</p>
       <ul class="item-list">
         <li>
-          <img class="about-image" src="/assets/images/cat.jpg">
+          <img class="about-image" src="/assets/images/cat-o.jpg">
           <p>Hanging out with my cats</p>
         </li>
         <li>
-          <img class="about-image" src="/assets/images/danish.jpg">
+          <img class="about-image" src="/assets/images/danish-o.png">
           <p>Learning Danish</p>
         </li>
         <li>
-          <img class="about-image" src="/assets/images/travel.jpg">
+          <img class="about-image" src="/assets/images/travel-o.jpg">
           <p>Travelling</p>
         </li>
         <li>
-          <img class="about-image" src="/assets/images/conference.jpg">
+          <img class="about-image" src="/assets/images/conference-o.jpg">
           <p>Going to tech &amp; UX conferences and meet ups</p>
         </li>
       </ul>
