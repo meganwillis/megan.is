@@ -4,8 +4,10 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 45vh;
+  min-height: 300px;
   justify-content: center;
+  overflow: hidden;
+  position: relative;
 
   h1,
   p {
@@ -42,24 +44,33 @@
     }
   }
 
-  &__box {
-    padding: 30px 20px 40px;
-  }
+  &__background {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    top: 0;
 
-  &--projects {
-    // background-image: url('');
-    background-color: #bb6449;
-    color: $white;
-
-    h1 {
-      &::after {
-        background-color: $white;
-      }
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
     }
   }
 
+  &__box {
+    padding: 30px 20px 40px;
+    position: relative;
+    z-index: 10;
+  }
+
+  &--projects {
+    background-color: #efefef;
+  }
+
   &--about {
-    background-image: url('/assets/images/projects.jpg');
+    //background-image: url('/assets/images/projects.jpg');
     color: $white;
 
     h1 {
@@ -70,7 +81,7 @@
   }
 
   &--contact {
-    background-image: url('/assets/images/contact.jpg');
+    // background-image: url('/assets/images/contact.jpg');
     color: $white;
 
     h1 {
@@ -82,26 +93,22 @@
 }
 
 .content-header {
-  margin: 0 auto;
-  max-width: 700px;
+  background: #efefef;
+  margin: 20px auto 0;
+  //max-width: 700px;
+  padding: 60px;
 
   h1 {
-    font-size: 4em;
+    font-size: 2.6rem;
     font-weight: 400;
-    margin-top: 30px;
-  }
+    text-align: center;
 
-  .back-to {
-    font-family: $serif;
-    font-size: 1.8rem;
-    margin-bottom: -25px;
-    margin-top: 50px;
+    @media (min-width: 600px) {
+      font-size: 3rem;
+    }
 
-    a {
-      border-bottom: 1px solid $black;
-      color: $black;
-
-
+    @media (min-width: 700px) {
+      font-size: 3rem;
     }
   }
 }

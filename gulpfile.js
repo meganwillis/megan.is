@@ -76,3 +76,4 @@ gulp.task('sass', function() {
 });
 
 gulp.task('default', ['sasslint', 'sass','views','copy','serve']);
+gulp.task('predeploy', ['sasslint', 'sass','views','copy']);

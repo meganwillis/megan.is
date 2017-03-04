@@ -9,6 +9,7 @@
     {% include 'partials/header.nunjucks' %}
     <main>
       <section class="home-intro">
+				{% include 'partials/home-hero.nunjucks' %}
 				<div class="home-intro__text">
         	<h1>Hi, I'm Megan</h1>
         	<p>I love making things for the internet.</p>
