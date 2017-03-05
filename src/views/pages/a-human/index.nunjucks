@@ -89,19 +89,19 @@
       <p>If I'm not curled up with a big cup of coffee, I'm usually found:</p>
       <ul class="item-list">
         <li>
-          <img class="about-image" src="/assets/images/cat-o.jpg">
+          <img class="about-image" src="/assets/images/cat-o.jpg" alt="My three cats">
           <p>Hanging out with my cats</p>
         </li>
         <li>
-          <img class="about-image" src="/assets/images/danish-o.png">
+          <img class="about-image" src="/assets/images/danish-o.png" alt="Screenshot of a Danish language app">
           <p>Learning Danish</p>
         </li>
         <li>
-          <img class="about-image" src="/assets/images/travel-o.jpg">
+          <img class="about-image" src="/assets/images/travel-o.jpg" alt="A garden in Marrakech">
           <p>Travelling</p>
         </li>
         <li>
-          <img class="about-image" src="/assets/images/conference-o.jpg">
+          <img class="about-image" src="/assets/images/conference-o.jpg" alt="A photo from a UX conference">
           <p>Going to tech &amp; UX conferences and meet ups</p>
         </li>
       </ul>
