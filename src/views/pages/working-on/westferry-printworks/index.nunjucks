@@ -18,7 +18,7 @@
   <p>Westferry Printworks was a <a href="https://table.digital" target="_blank">table digital</a> project.</p>
 
   <h2 id="brief">What they needed</h2>
-  <p>Westferry Printworks, a new property development in the Isle of Dogs, needed a responsive, content-manageable website for the public, potential investors, residents, and commercial businesses, with information about the project.</p>
+  <p>Westferry Printworks, a new property development in the Isle of Dogs, needed a responsive website for the public, potential investors, residents, and commercial businesses, with information about the project that they could easily edit .</p>
   <p>Acting as both UX consultant and project manager, I worked closely with the designer/developer to deliver this project in an extremely short timeframe.</p>
 
   <h2 id="process">What I did</h2>
@@ -28,18 +28,19 @@
   <img class="inline-image" src="/assets/images/westferry_wip-o.jpg" />
   <p>My priorities were adapting existing content to user needs, and creating a considered CMS experience for editors.</p>
   <h3>New business</h3>
-  <p>With the support of the Technical Director, I created a pitch deck, proposal, and full Statement of Work, all presented to the client.</p>
+  <p>With the support of the Technical Director, I created a pitch deck, proposal, and full Statement of Work, all presented in person to the client.</p>
   <h3>Project management</h3>
   <p>I was responsible for all client management, scheduling, budgets and third party stakeholder management, and also led CMS training once the site was complete.</p>
 
   <h2 id="solution">The solution</h2>
   <img src="/assets/images/westferry-o.jpg" alt="Westferry Printworks site on an iPad" />
-  <p>Westferry Printworks has already started to recieve </p>
+  <p>The Westferry Printworks website launched in early 2017, and is expected to stay in place until the construction of the development has been completed.</p>
   <p><a class="btn" target="_blank" href="https://westferryprintworks.co.uk"><i class="material-icons">open_in_new</i> Check out the website</a></p>
 
   <h2 id="learnings">Key takeaways</h2>
   <h3>Custom websites don’t have to take forever</h3>
-  <p>My main learning was that you can build a custom Umbraco site from scratch in a week! Having worked at agencies where just the build can take 4 - 6 weeks, it was great to see the impact of having UX and design/development sit together and focus on iteratively working on a project.</p>
+  <p>My main learning was that you can build a custom Umbraco site from scratch in a week!</p>
+  <p>Having worked at agencies where just the build can take 4 - 6 weeks, it was great to see the impact of having UX and design/development sit together and focus on iteratively working on a project.</p>
   <h3>Content editors are important users too</h3>
   <p>During CMS training, it was great to see how easily the content editors were able to become confident Umbraco users.</p>
   <p>We considered their experience throughout the CMS build, making editing as straightforward as possible. This meant they were able to quickly get up and running, and needed minimal support after our session.</p>
