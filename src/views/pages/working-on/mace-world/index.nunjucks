@@ -1,5 +1,9 @@
 {% set page = 'Projects' %}
 {% set titleName = 'Mace World' %}
+{% set ogTitle = 'Mace World' %}
+{% set ogDescription = 'We produced an interactive, exploratory, visually rich experience.' %}
+{% set ogImage = '/assets/images/projects_gew1qx_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg' %}
+{% set ogUrl = '/working-on/mace-world' %}
 {% extends "detail.nunjucks" %}
 
 {% block content %}
@@ -13,41 +17,52 @@
     <p>Approaching their 25th anniversary, Mace wanted a way to celebrate that would showcase their projects in an exciting and imaginative way, that would excite their market and inspire their employees.</p>
 
   <h2 id="brief">What they needed</h2>
-
-  <p>To tell the sotory of mace through a showcase of their project in the most exciting and imaginative way possible. To demonstrate the positive and meaningful difference Mace haev made that captures market attention, and inspires employees.</p>
-    <p>Mace are a large construction consultancy business based in London, who have worked on projects such as the Shard, the Queen Elizabeth Olympic Park, and the London Eye.</p>
-    <p>Mace needed a way to showcase their range of projects as part of their 25th birthday celebrations.</p>
-    <p>I was brought into manage the technical delivery of the project due to the complex nature of the deliverable.</p>
+    <p>Mace are a large construction consultancy business based in London, who have worked on internationally recognised projects such as the Shard, the Queen Elizabeth Olympic Park, and the London Eye.</p>
+    <p>They needed a way to bring together their key projects in one place, that could act as a celebration of their work and innovate digitally within their industry.</p>
+    <p>Due to the complex nature of the technology being used on the project, I was brought on to manage technical delivery of Mace World.</p>
 
   <h2 id="process">What I did</h2>
-  <img src="">
-  <p>Stand ups</p>
-  <img src="">
-  <p>Reviews and updates</p>
-  <img src="">
-  <p>Cross-device testing</p>
+  <h3>Got to grips with the technology</h3>
+  <p>As project manager, understanding the possibilities and limitations of the web was key to delivering this project.</p>
+  <p>One of the most important things I did was ensuring the involvement of the tech lead during ideation meetings.</p>
+  <p>Involving the tech lead to not only creatively push the project, but also to confirm the practicalities of potential solutions, meant I was able to better manage both internal and client expectations.</p>
+  <p>As the project was a showcase piece, there was a careful balancing act of delivering something great that fitted within the project's constraints.</p>
+  <h3>Team leadership</h3>
+  <p>This project was particularly complicated to deliver, and a core part of the challenge was keeping team morale high.</p>
+  <p>I facilitated cross-functional meetings, kept the project team on track, celebrated victories throughout, and provided no small amount of pizza and late night support.</p>
+  <p>All of these things helped to bring out the best in the team, and combined to produce something that not just our team, but our whole department was proud of.</p>
 
   <h2 id="solution">The solution</h2>
   <img src="/assets/images/maceworld.jpg" alt="Mace World site on a laptop" />
-    <p>Interactive, exploratory experience. The site launched at MIPIM, an important trade show, to great reception. The Mace marketing team had the site loaded on iPads to show visitors, and the site now lives on a large interactive screen in Mace’s reception.</p>
+    <p>We produced an interactive, exploratory, visually rich experience.</p>
+    <p>The site successfully launched at MIPIM, an important industry trade show, to great reception. The Mace team were able to have the full experience of site loaded onto iPads, which proved to be a great conversastion starter.</p>
+    <p>The site now also lives on a large interactive screen in Mace’s reception.</p>
     <p><a class="btn" target="_blank" href="http://mace.world"><i class="material-icons">open_in_new</i> Check out the website</a></p>
 
   <h2 id="learnings">Key takeaways</h2>
-  <h3>Managing waiting/loading time experiences is trickier than it sounds!</h3>
-    <p>My main learning was that you can build a custom Umbraco site from scratch in a week! Having worked at agencies where just the build can take 4 - 6 weeks, it was great to see the impact of having UX and design/development sit together and focus on iteratively working on a project.</p>
-  <h3>Be considerate to your user</h3>
-    <p>- Not having sound auto play
-  - Not forving them to play video
-  - Providing a quick alternative way for employees to access project detail - e.g salespeople on the road</p>
+  <h3>Waiting sucks!</h3>
+    <p>Mace World is a highly visual piece, involving detailed fly-throughs which meant heavy videos files.</p>
+    <p>Initial approaches to loading these videos involved loading them all up front, but in practise this meant loading them up front, which caused long waiting times while files downloaded.</p>
+    <p>Changing tack to detect which files needed to be downloaded at each stage hugely decreased the amount of waiting time.</p>
+  <h3>Be considerate to your users</h3>
+    <p>We made sure that users were able to control their own experience.</p>
+    <p>We built functionality so users could easily toggle the sound on the website, gave them the option to skip video intros, and providing a alternative way for employees to quickly access projects - very useful for Mace staff in client meetings.</p>
+    <p>Based on user testing, we found that introducing these features decreased the amount of frustration users felt with the site, and gave them an overall better experience.</p>
   <h3>Relationship management matters</h3>
-    <p>Managing internal relationships and compromise
-  MI, dev, design & ux - noone wants to compromise, keeping the experience good without compromising key values</p>
+    <p>Managing internal relationships and compromises was key to the success of this project.</p>
+    <p>With deliverables coming from UX, Moving Image, Design, and Development departments, there was often a conflict between creative ideas and what was feasible.</p>
+    <p>I helped these teams to keep the experience without compromising their key values.</p>
 
-  <div>
-    <h2>Other work</h2>
-    <p>Link to Westferry Printworks</p>
-    <p>Want to chat about a project?</p>
-  </div>
+    <div class="related-links">
+      <h2>View more projects</h2>
+      <p><a href="/working-on/westferry-printworks/">Project: Westferry Printworks</a></p>
+      <p><a href="/working-on/peckham-lido/">Project: Peckham Lido</a></p>
+    </div>
+
+    <div class="callout">
+      <h2>Let's talk</h2>
+      <p>If you've got a project you'd like to talk about, <a href="/contactable">get in touch</a>.</p>
+    </div>
 </div>
 
 {% endblock %}

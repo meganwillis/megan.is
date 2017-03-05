@@ -24,7 +24,7 @@ nav {
     &--active {
       a,
       a:hover {
-        border-bottom: 3px solid $mef-teal;
+        border-bottom: 3px solid $active-grey;
         font-weight: bold;
       }
     }
@@ -37,7 +37,11 @@ nav {
     padding: 12px 0 6px 0;
 
     &:hover {
-      border-bottom: 3px solid #e1e1e1;
+      border-bottom: 3px solid $mef-teal;
+
+      .home & {
+        border-bottom: 3px solid $white;
+      }
     }
   }
 }

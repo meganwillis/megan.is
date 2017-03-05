@@ -1,5 +1,9 @@
 {% set page = 'Projects' %}
 {% set titleName = 'Westferry Printworks' %}
+{% set ogTitle = 'Westferry Printworks' %}
+{% set ogDescription = 'A custom built, content manageable website' %}
+{% set ogImage = '/assets/images/projects_gew1qx_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg' %}
+{% set ogUrl = '/working-on/westferry-printworks' %}
 {% extends "detail.nunjucks" %}
 
 {% block content %}
@@ -30,6 +34,7 @@
 
   <h2 id="solution">The solution</h2>
   <img src="/assets/images/westferry.jpg" alt="Westferry Printworks site on an iPad" />
+  <p>Westferry Printworks has already started to recieve </p>
   <p><a class="btn" target="_blank" href="https://westferryprintworks.co.uk"><i class="material-icons">open_in_new</i> Check out the website</a></p>
 
   <h2 id="learnings">Key takeaways</h2>
@@ -43,10 +48,15 @@
   <p>Working in Marrakech on ‘less than ideal’ WiFi really highlighted the importance of designing and building a site that is fast and light.</p>
   <p>While I was already aware that improvements to code and image compression make a huge difference, seeing it first hand was eye-opening.</p>
 
-  <div>
-    <h2>Related links</h2>
-    <p>Link to Peckham Lido</p>
-    <p>Want to chat about a project?</p>
+  <div class="related-links">
+    <h2>View more projects</h2>
+    <p><a href="/working-on/mace-world/">Project: Mace World</a></p>
+    <p><a href="/working-on/peckham-lido/">Project: Peckham Lido</a></p>
+  </div>
+
+  <div class="callout">
+    <h2>Let's talk</h2>
+    <p>If you've got a project you'd like to talk about, <a href="/contactable">get in touch</a>.</p>
   </div>
 </div>
 

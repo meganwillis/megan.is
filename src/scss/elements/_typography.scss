@@ -31,7 +31,17 @@ a {
     margin-right: 5px;
     position: relative;
     top: -2px;
+    transition: .3s all ease;
     vertical-align: middle;
+  }
+
+  &:hover {
+    background-color: darken($mef-teal, 20%);
+    font-weight: normal;
+
+    i {
+      transform: scale(1.2);
+    }
   }
 
   &:after {

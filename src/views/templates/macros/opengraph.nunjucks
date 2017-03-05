@@ -1,0 +1,7 @@
+{% macro opengraph(ogTitle='', ogDescription='', ogImage='', ogUrl='') %}
+  <meta property="og:title" content="{{ogTitle}}">
+  <meta property="og:description" content="{{ogDescription}}">
+  <meta property="og:image" content="https://megan.is{{ogImage}}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://megan.is{{ogUrl}}">
+{% endmacro %}

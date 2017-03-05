@@ -4,6 +4,8 @@
 		<meta charset="utf-8">
 		{% import 'macros/title.nunjucks' as title %}
 	  {{title.title(titleName)}}
+    {% import 'macros/opengraph.nunjucks' as opengraph %}
+	  {{opengraph.opengraph(ogTitle, ogDescription, ogImage, ogUrl)}}
 		{% include 'partials/head.nunjucks' %}
   </head>
   <body>

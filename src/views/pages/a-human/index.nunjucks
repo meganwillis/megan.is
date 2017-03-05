@@ -1,5 +1,9 @@
 {% set page = 'About' %}
 {% set titleName = 'About' %}
+{% set ogTitle = 'About' %}
+{% set ogDescription = 'Cats, coffee, and code' %}
+{% set ogImage = '/assets/images/projects_gew1qx_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg' %}
+{% set ogUrl = '/a-human/' %}
 {% extends "landing.nunjucks" %}
 
 {% block content %}
@@ -8,7 +12,7 @@
     {% include "partials/hero/about.nunjucks" %}
     <div class="hero__box">
       <h1>About me</h1>
-      <p class="intro">Made of code, cats, and coffee</p>
+      <p class="intro">Cats, coffee, and code</p>
     </div>
   </div>
 

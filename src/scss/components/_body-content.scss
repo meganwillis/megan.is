@@ -1,6 +1,5 @@
 .body-content {
   margin: 40px auto;
-  max-width: 80vw;
   padding: 20px 40px 40px;
   text-align: left;
 
@@ -228,7 +227,7 @@ hr {
   margin-left: -40px;
   margin-right: -40px;
   margin-top: 80px;
-  padding: 40px 30px 50px;
+  padding: 40px 40px 50px;
 
   &:last-child {
     .home & {
@@ -237,7 +236,7 @@ hr {
   }
 
   @media (min-width: 700px) {
-    padding: 40px 80px 50px;
+    padding: 40px 80px 60px;
   }
 
   h2 {
@@ -253,7 +252,7 @@ hr {
   }
 
   p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     line-height: 1.6;
 
     @media (min-width: 700px) {
@@ -274,4 +273,59 @@ hr {
       border-color: $white;
     }
   }
+}
+
+.related-links {
+
+
+  p {
+    font-family: $serif;
+    font-size: 1.4rem;
+    margin: 0 0 .8rem;
+  }
+
+  /*
+  background-color: $mef-teal;
+  box-sizing: border-box;
+  color: $white;
+  font-family: $serif;
+  font-size: 1.8em;
+  height: 140px;
+  margin-bottom: 20px;
+  max-width: 380px;
+  padding: 30px 30px 10px;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+
+  @media (min-width: 585px) {
+    font-size: 1.4em;
+    height: 140px;
+    margin-right: calc(10% - 30px);
+    padding: 40px 30px 30px;
+    width: 45%;
+  }
+
+  @media (min-width: 680px) {
+    font-size: 1.8em;
+    height: 160px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:after {
+    border-bottom: 0 !important;
+  }
+
+  &:hover {
+    font-weight: normal;
+  }
+
+  span {
+    font-family: $sans-serif;
+    font-size: .6em;
+  }*/
+
 }
