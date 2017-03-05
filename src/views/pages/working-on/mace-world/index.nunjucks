@@ -13,6 +13,8 @@
     <p>We delivered a technically complex visual experience</p>
 
   <h2 id="brief">Brief</h2>
+
+  <p>To tell the sotory of mace through a showcase of their project in the most exciting and imaginative way possible. To demonstrate the positive and meaningful difference Mace haev made that captures market attention, and inspires employees.</p>
     <p>Mace are a large construction consultancy business based in London, who have worked on projects such as the Shard, the Queen Elizabeth Olympic Park, and the London Eye.</p>
     <p>Mace needed a way to showcase their range of projects as part of their 25th birthday celebrations.</p>
     <p>I was brought into manage the technical delivery of the project due to the complex nature of the deliverable.</p>
@@ -27,12 +29,25 @@
 
   <h2 id="solution">The solution</h2>
   <img src="/assets/images/maceworld.jpg" alt="Mace World site on a laptop" />
-    <p>The site launched at MIPIM, an important trade show, to great reception. The Mace marketing team had the site loaded on iPads to show visitors, and the site now lives on a large interactive screen in Mace’s reception.</p>
+    <p>Interactive, exploratory experience. The site launched at MIPIM, an important trade show, to great reception. The Mace marketing team had the site loaded on iPads to show visitors, and the site now lives on a large interactive screen in Mace’s reception.</p>
     <p><a class="btn" target="_blank" href="http://mace.world"><i class="material-icons">open_in_new</i> Check out the website</a></p>
 
-  <h2 id="learnings">Learnings</h2>
-  <p>Browser and machine set ups can be troublesome</p>
-  <p></p>
+  <h2 id="learnings">Key takeaways</h2>
+  <h3>Managing waiting/loading time experiences is trickier than it sounds!</h3>
+    <p>My main learning was that you can build a custom Umbraco site from scratch in a week! Having worked at agencies where just the build can take 4 - 6 weeks, it was great to see the impact of having UX and design/development sit together and focus on iteratively working on a project.</p>
+  <h3>Be considerate to your user</h3>
+    <p>- Not having sound auto play
+  - Not forving them to play video
+  - Providing a quick alternative way for employees to access project detail - e.g salespeople on the road</p>
+  <h3>Relationship management matters</h3>
+    <p>Managing internal relationships and compromise
+  MI, dev, design & ux - noone wants to compromise, keeping the experience good without compromising key values</p>
+
+  <div>
+    <h2>Other work</h2>
+    <p>Link to Westferry Printworks</p>
+    <p>Want to chat about a project?</p>
+  </div>
 </div>
 
 {% endblock %}

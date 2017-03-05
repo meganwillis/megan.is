@@ -23,9 +23,49 @@
     </div>
     <hr />
     <div class="about-block">
+      <h2>My approach</h2>
+      <p>The quality and usefulness of my work is very important to me, and I make sure that all of my projects are:</p>
+      <ul class="item-list">
+        <li>
+          <h3>
+            <i class="material-icons">devices</i>Responsive</h3>
+            <ul class="skill-list">
+              <li><a href="http://futurefriendlyweb.com/thinking.html" target="_blank">Future-friendly</a> sites made by focusing on content over set device sizes</li>
+              <li>Optimised for performance</li>
+            </ul>
+          </li>
+          <li>
+            <h3>
+              <i class="material-icons">supervisor_account</i>Accessible</h3>
+              <ul class="skill-list">
+                <li>To <a href="https://www.w3.org/standards/webdesign/accessibility" target="_blank">WCAG 2.0</a> AA standard</li>
+                <li>Universal design considerations during UX, design, and development</li>
+              </ul>
+            </li>
+          <li>
+            <h3><i class="material-icons">person_pin_circle</i>Appropriate</h3>
+            <ul class="skill-list">
+            <li>User-focused</li>
+            <li>User tested (formal or guerilla)</li>
+            <li>In line with modern web practises</li>
+          </ul>
+        </li>
+        <li>
+          <h3>
+            <i class="material-icons">assignment_turned_in</i>Tested and secure</h3>
+          <ul class="skill-list">
+            <li>Cross-browser and -device tested</li>
+            <li>CSS and HTML validation</li>
+            <li>Served over https</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <hr />
+    <div class="about-block">
       <h2>My background</h2>
       <p>I've worked in digital agencies in London since I graduated from
-        <a href="http://www.gold.ac.uk/">Goldsmiths&nbsp;College, University of London</a>
+        <a target="_blank" href="http://www.gold.ac.uk/">Goldsmiths&nbsp;College, UoL</a>
         with a BSc (2:1) in Psychology.</p>
       <p>In 2016, after 3 years as a Digital Project Manager, I transitioned to user research. My focus is on usability testing, where I've been helping clients make their sites and apps easier to use.</p>
       <p>Outside of my main work hours I'm also Digital Delivery Director of

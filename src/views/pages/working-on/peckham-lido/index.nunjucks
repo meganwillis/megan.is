@@ -10,37 +10,41 @@
 
 <div class="body-content">
   <h2 id="summary">Project summary</h2>
-    <p>The first iteration of a </p>
-
+  <p>The Peckham Lido website gives a community project a platform for communication.</p>
+  <p>Peckham Lido was a <a href="https://table.digital" target="_blank">table digital</a> project.</p>
   <h2 id="brief">What they needed</h2>
   <p>After a successful crowdfunding campaign to reopen a local outdoor swimming pool, Peckham Lido needed a way of communicating their progress to their backers, and to direct local residents to a consultation hub where they could express their views.</p>
-  <p>As an early-stage community project, Peckham Lido wanted a warm and friendly web presence which answered common questions they’d received from the local community.</p>
+  <p>As an early-stage community project, Peckham Lido wanted their web presence to be warm and friendly, and to answer common questions they’d received from the local community.</p>
 
   <h2 id="process">What I did</h2>
+  <h3>User Experience</h3>
+  <p>Paper sketches, in-browser work and recommendations, supported front end iterations, integrated client feedback</p>
   <h3>Content</h3>
   <p>Content hierarchy, wireframes, and content prioritisation</p>
   <h3>Project management</h3>
-  <p>Client management, scheduling, budgets</p>
-  <h3>User Experience</h3>
-  <p>Paper sketches, in-browser work and recommendations, supported front end iterations, integrated client feedback</p>
+  <p>After winning the project through making contact with the Peckham Lido team, I was responsible for all of the client management, scheduling, and budgets.</p>
+  <p>We were able to deliver the first phase early and come in under budget while creating something the client loved.</p>
 
   <h2 id="solution">The solution</h2>
   <img src="/assets/images/peckham.jpg" alt="Westferry Printworks site on an iPad" />
-  <p><a class="btn" target="_blank" href="https://peckhamlido.co.uk"><i class="material-icons">open_in_new</i> Check out the website</a></p>
+  <p><a class="btn" target="_blank" href="https://peckhamlido.com"><i class="material-icons">open_in_new</i> Check out the website</a></p>
 
   <h2 id="learnings">Key takeaways</h2>
-  <h3>Custom websites don’t have to take forever</h3>
-  <p>My main learning was that you can build a custom Umbraco site from scratch in a week! Having worked at agencies where just the build can take 4 - 6 weeks, it was great to see the impact of having UX and design/development sit together and focus on iteratively working on a project.</p>
-  <h3>Content editors are important users too</h3>
-  <p>During CMS training, it was great to see how easily the content editors were able to become confident Umbraco users. We considered their experience throughout the CMS build, making editing as straightforward as possible. This meant they were able to quickly get up and running, and needed minimal support after our session.</p>
-  <h3>Website performance matters</h3>
-  <p>I worked on this project with my partner over the Christmas period of 2016, when we had two holidays booked. This meant we kicked off the site in the U.K, worked on some of the front end in Norway, and finished it up in Marrakech.</p>
-  <p>Working in Marrakech on ‘less than ideal’ WiFi really highlighted the importance of designing and building a site that is fast and light. While I was already aware that improvements to code and image compression make a huge difference, seeing it first hand was eye-opening.</p>
+  <h3>Prioritisation is key</h3>
+  <p>The importance of focusing on the most important things first really came through during this project.</p>
+  <p>For Peckham Lido, the priority was to get a web presence established. This meant that I recommended a phased approach, launching the current one page site to begin with, which will be built out into a content managed site at a later date.</p>
+  <p>As the UX designer on this project, my focus was establishing the priority of the information users would need, and eliminating as much unnecessary content as possible.</p>
+  <h3>Designers are fragile</h3>
+  <p>No, not emotionally.. Unfortunately, our designer broke his arm just a couple of days after the creative brief meeting! This meant I needed to adapt our approach.</p>
+  <p>Based on the mood boards that had already been produced, we were able to apply the creative treatment in the browser, then amend the design based on his feedback.</p>
+  <h3>Things don't have to be expensive to be done well</h3>
+  <p>As a community organisation, this project was on an extremely tight budget. Our focus was on producing good work for low to no cost.</p>
+  <p>We used LetsEncrypt for the security certificate, DigitalOcean for cost-effective hosting, Google fonts for free web fonts, and leveraged existing imagery to successfully keep build costs to an absolute minimum.</p>
 
   <div>
     <h2>Other work</h2>
-    <p>link to other project</p>
-    <p>link to contact page</p>
+    <p>Link to Mace World</p>
+    <p>Want to chat about a project?</p>
   </div>
 </div>
 
