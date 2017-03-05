@@ -2,7 +2,7 @@
 {% set titleName = 'Westferry Printworks' %}
 {% set ogTitle = 'Westferry Printworks' %}
 {% set ogDescription = 'A custom built, content manageable website' %}
-{% set ogImage = '/assets/images/projects_gew1qx_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg' %}
+{% set ogImage = '/assets/images/westferry_wip-o.jpg' %}
 {% set ogUrl = '/working-on/westferry-printworks' %}
 {% extends "detail.nunjucks" %}
 
