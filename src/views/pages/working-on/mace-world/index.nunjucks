@@ -41,12 +41,12 @@
 
   <h2 id="learnings">Key takeaways</h2>
   <h3>Waiting sucks!</h3>
-    <p>Mace World is a highly visual piece, involving detailed fly-throughs which meant heavy videos files.</p>
-    <p>Initial approaches to loading these videos involved loading them all up front, but in practise this meant loading them up front, which caused long waiting times while files downloaded.</p>
+    <p>Mace World is a highly visual piece, involving detailed fly-throughs which meant heavy video files.</p>
+    <p>Initial approaches to loading these videos involved loading them all up front, but in practise this caused long waiting times while files downloaded.</p>
     <p>Changing tack to detect which files needed to be downloaded at each stage hugely decreased the amount of waiting time.</p>
   <h3>Be considerate to your users</h3>
     <p>We made sure that users were able to control their own experience.</p>
-    <p>We built functionality so users could easily toggle the sound on the website, gave them the option to skip video intros, and providing a alternative way for employees to quickly access projects - very useful for Mace staff in client meetings.</p>
+    <p>We built functionality so users could easily toggle the sound on the website, gave them the option to skip video intros, and provided a alternative way for employees to quickly access projects - very useful for Mace staff in client meetings.</p>
     <p>Based on user testing, we found that introducing these features decreased the amount of frustration users felt with the site, and gave them an overall better experience.</p>
   <h3>Relationship management matters</h3>
     <p>Managing internal relationships and compromises was key to the success of this project.</p>
