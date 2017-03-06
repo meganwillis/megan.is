@@ -1,0 +1,73 @@
+{% set page = 'About' %}
+{% set titleName = '5★ Employee' %}
+{% set ogTitle = 'A 5★ Employee' %}
+{% set ogDescription = 'My approach, my background, and what I get up to outside of work' %}
+{% set ogImage = '/assets/images/projects_gew1qx_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg' %}
+{% set ogUrl = '/a-human/' %}
+{% extends "landing.nunjucks" %}
+
+{% block content %}
+
+<div class="hero hero--about">
+  {% include "partials/hero/about.nunjucks" %}
+  <div class="hero__box">
+    <h1>Hi Trustpilot</h1>
+    <p class="intro">Heard you're looking for a UX&nbsp;Designer?</p>
+  </div>
+</div>
+
+<div class="body-content body-content--full-width">
+  <h1 class="five-reasons">5 reasons <span>Why you should hire me</span></h1>
+  <ol class="reasons">
+    <li class="reasons__item">
+      <div class="reasons__center">
+      <h2>I’ve got UX skills</h2>
+      </div>
+    </li>
+    <li class="reasons__item">
+      <div class="reasons__center">
+        <h2>I love the web</h2>
+        <ul>
+          <li>I don&rsquo;t just work in digital for a job; I love making things for the internet</li>
+          <li>This really comes through in my work - ask anyone I&rsquo;ve worked with about my feelings on favicons and responsive design!</li>
+          <li>I like to try and make the web a better place, like letting you know that the copyright date in the footer of jobs.trustpilot.com says 2016</li>
+        </ul>
+      </div>
+    </li>
+    <li class="reasons__item">
+      <div class="reasons__center">
+        <h2>Our approaches are similar</h2>
+        <ul>
+          <li>I’ve carried out enough user research to know firsthand the pain of untested designs, and it sounds like you do too</li>
+          <li>From what I’ve read, you value user insights, and your decisions are based on more than just what looks nice</li>
+        </ul>
+      </div>
+    </li>
+    <li class="reasons__item">
+      <div class="reasons__center">
+        <h2>I can bring some added value</h2>
+        <ul>
+          <li>I love going to UX and front end meetups and conferences and sharing what I&rsquo;ve learnt</li>
+          <li>I really care about accessibility</li>
+          <li>I&rsquo;ve always got an interesting article to hand. If you&rsquo;re not there already, head over to <a href="http://ux.dk">http://ux.dk</a> and join their Slack channel to see for yourself</li>
+        </ul>
+      </div>
+    </li>
+    <li class="reasons__item">
+      <div class="reasons__center">
+        <h2>It’s my first UX designer role..</h2>
+        <ul>
+          <li>..BUT I’ve already got at least some experience all of the things you’ve listed under “Things you’ll do in this role“</li>
+          <li>I’m a fast learner, and I’m not afraid to ask questions</li>
+          <li>I don’t have a lot of ingrained bad habits.. Like your Sketch files structured a certain way? Done!</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+
+  <div class="callout">
+    <h2>Sound good?</h2>
+    <p>I'd <a href="/contactable">love to chat</a></p>
+  </div>
+</div>
+{% endblock %}
