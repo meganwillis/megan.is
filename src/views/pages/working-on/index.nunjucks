@@ -29,14 +29,14 @@
 </div> #}
 
 <div class="grid">
-  <a href="/working-on/westferry-printworks/" class="grid__item grid__item--westferry">
-    <h2>Westferry Printworks</h2>
-  </a>
   <a href="/working-on/peckham-lido/" class="grid__item grid__item--peckham">
     <h2>Peckham Lido</h2>
   </a>
   <a href="/working-on/mace-world/" class="grid__item grid__item--maceworld">
     <h2>Mace World</h2>
+  </a>
+  <a href="/working-on/westferry-printworks/" class="grid__item grid__item--westferry">
+    <h2>Westferry Printworks</h2>
   </a>
   <a href="/contactable/" class="grid__item grid__item--getintouch">
     <h2>Get in touch</h2>
