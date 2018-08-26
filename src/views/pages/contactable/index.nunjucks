@@ -26,16 +26,8 @@
         <a href="mailto:meganclairewillis@gmail.com">meganclairewillis@gmail.com</a>
     </li>
     <li class="contact-block__item">
-      <h2>Phone</h2>
-      <a href="tel:07432559696">+44(0) 7432 55 9696</a>
-    </li>
-    <li class="contact-block__item">
       <h2>LinkedIn</h2>
       <a target="_blank" href="https://www.linkedin.com/in/megan-willis/">linkedin.com/in/megan-willis</a>
-    </li>
-    <li class="contact-block__item">
-      <h2>Twitter</h2>
-      <a target="_blank" href="https://twitter.com/welshfruit">@welshfruit</a>
     </li>
   </ul>
 </div>
